@@ -14,7 +14,7 @@ export default function Navbar() {
     <header className="bg-[#eee] md:rounded px-4 py-8 md:py-4 relative shadow-sm md:w-[1038px]  md:absolute md:top-5 md:mx-auto">
       <Container>
         <div className="flex items-center justify-between">
-          <div className="text-[#00856f] text-xl font-bold">ORI-IRE</div>
+          <div className="text-[#00856f] text-xl font-[family-name:var(--font-proxnovabold)] font-[600]">ORI-IRE</div>
 
           <div className="text-gray-500 font-extrabold text-xl lg:hidden">
             {!display ? (

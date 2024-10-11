@@ -4,6 +4,29 @@ import Navbar from "./_components/NavBar";
 import container from "./_components/Container";
 
 
+const proxNovar = localFont({
+  src: "./fonts/ProximaNova-Regular.otf",
+  variable: "--font-proxnovar",
+  weight: "100 300 400 600 900",
+});
+const proxNovabold = localFont({
+  src: "./fonts/Proxima Nova Bold.otf",
+  variable: "--font-proxnovabold",
+  weight: "900",
+});
+const proxNovablack = localFont({
+  src: "./fonts/Proxima Nova Black.otf",
+  variable: "--font-proxnovablack",
+  weight: "100 400 600 900",
+});
+
+const domaineDisplay = localFont({
+  src: "./fonts/DomaineDisplay-Regular.otf",
+  variable: "--font-domainer",
+  weight: "100 400 600 900",
+});
+
+
 
 export const metadata = {
   title: "ORI-IRE",
@@ -13,7 +36,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className=" md:flex md:justify-center border"
+      <body className={ `md:flex md:justify-center border ${domaineDisplay.variable} ${proxNovar.variable}`}
         
         >
           <Navbar />
