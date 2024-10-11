@@ -11,10 +11,13 @@ export default function Navbar() {
   const [display, setDisplay] = useState(false);
 
   return (
-    <header className="bg-[#eee] md:rounded px-4 py-8 md:py-4 relative shadow-sm md:w-[1038px]  md:absolute md:top-5 md:mx-auto">
+    <header className="bg-white md:rounded px-4 py-8 md:py-4 relative shadow-sm md:w-[1250px]  md:absolute md:top-4 md:mx-auto">
       <Container>
         <div className="flex items-center justify-between">
-          <div className="text-[#00856f] text-xl font-[family-name:var(--font-proxnovabold)] font-[600]">ORI-IRE</div>
+          <div className=""> 
+            
+            <h1 className="text-[#00856f] text-xl font-[family-name:var(--font-proxnovabold)] font-[600]" >ORI-IRE</h1>
+          </div>
 
           <div className="text-gray-500 font-extrabold text-xl lg:hidden">
             {!display ? (
@@ -25,7 +28,7 @@ export default function Navbar() {
           </div>
 
           <nav
-            className={`absolute left-0 top-[108px] w-full opacity-90 h-[70vh] lg:flex lg:relative lg:h-fit lg:top-0 lg:w-fit ${
+            className={`absolute left-0 top-[92px] w-full bg-white opacity-90 h-[80vh] lg:flex lg:relative lg:h-fit lg:top-0 lg:w-fit ${
               !display ? "hidden" : ""
             }`}
           >

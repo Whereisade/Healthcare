@@ -23,7 +23,7 @@ const proxNovablack = localFont({
 const domaineDisplay = localFont({
   src: "./fonts/DomaineDisplay-Regular.otf",
   variable: "--font-domainer",
-  weight: "100 400 600 900",
+  weight: "100 400 500 600 900",
 });
 
 
