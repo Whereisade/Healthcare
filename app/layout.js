@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./_components/NavBar";
-import container from "./_components/Container";
+
 
 
 const proxNovar = localFont({
@@ -36,10 +36,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={ `md:flex md:justify-center border ${domaineDisplay.variable} ${proxNovar.variable}`}
+      <body className={ `md:flex md:justify-center md:items-center md:flex-col border ${domaineDisplay.variable} ${proxNovar.variable}`}
         
         >
+          
           <Navbar />
+
         
         {children}
       </body>

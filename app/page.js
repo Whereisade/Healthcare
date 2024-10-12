@@ -1,37 +1,53 @@
 import Image from "next/image";
 import Container from "./_components/Container";
 import Button from "./_components/Button";
+import Heading1 from "./_components/Heading1";
 
 export default function Home() {
   return (
     <>
       <section className="bg-[#005350] w-full ">
         <Container>
-        
-          <div className=" pt-[16px] px-[8px] md:px-[8px]  md:pt-[50px] flex flex-col-reverse md:flex-row  gap-5 md:gap-15 ">
-
+          <div className=" pt-[16px] px-[8px] md:px-[16px]  md:pt-[90px] flex flex-col-reverse md:flex-row  gap-5 md:gap-15 ">
             <div className=" md:flex md:flex-col md:justify-center   ">
-             <h1 className={`font-[family-name:var(--font-domainer)] font-[500] md:font-[400] text-[30px] md:text-[56px] leading-[36px] md:leading-[65px] text-white md:w-fit`}>Embrace a healthier you, Discover the power of personalized care</h1>
-             <p className={`font-[family-name:var(--font-proxnovar)] mt-4  font-[300] leading-[23px] md:mt-6 md:mb-10 text-white`}>More than medicine. We provide holistic support clinical, financial, and emotional for every stage of your life's journey</p>
+              <h1
+                className={`font-[family-name:var(--font-domainer)] font-[500] md:mb-4 md:font-[400] text-[30px] md:text-[67px] leading-[36px] md:leading-[68px] text-white md:w-fit`}
+              >
+                Embrace a healthier you, Discover the power of personalized care
+              </h1>
+              <p
+                className={`font-[family-name:var(--font-proxnovar)] mt-4  font-[300] leading-[23px] md:mt-6 md:mb-8 text-white`}
+              >
+                More than medicine. We provide holistic support clinical,
+                financial, and emotional for every stage of your life's journey
+              </p>
 
-             <Button text="Get started" className="mt-20" />
-
+              <Button text="Request A Call" tcolo="text-white" className="" />
             </div>
 
-            
-           <Image src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728657065/Gemini_Generated_Image_y58ra3y58ra3y58r_tgswvb.jpg" width={600} height={600}  className="rounded-lg" />
-
+            <Image
+              src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728657065/Gemini_Generated_Image_y58ra3y58ra3y58r_tgswvb.jpg"
+              width={600}
+              height={600}
+              className="rounded-lg"
+            />
           </div>
-
-        
-
-      
         </Container>
-
       </section>
 
-      
-    </>
+      <section>
+        <Container>
+         <div className="md:flex p-[8px] md:p-[16px] md:justify-center md:items-center flex flex-col-reverse">
+           <div className="border md:w-[40%]">
+             <Heading1 head="Healing Starts Here" para="Effective treatment depends on getting the right diagnosis. Our experts diagnose and treat the toughest medical challenges. Ori Ire medical center has more No. 1 rankings than any other hospital in the nation"/>
+             <Button text="Why Choose Ori Ire" tcolo="text-[#005350]" bordercolo="border-[#005350]" />
+           </div>
 
+           <Image src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728766719/Gemini_Generated_Image_8y6bfr8y6bfr8y6b_obdnrf.jpg" width={500} height={500}></Image>
+         </div>
+
+        </Container>
+      </section>
+    </>
   );
 }

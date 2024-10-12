@@ -13,16 +13,16 @@ export default function Navbar() {
   const [display, setDisplay] = useState(false);
 
   return (
-    <header className="bg-white md:rounded px-4 py-8 md:py-4 relative shadow-sm md:w-[1250px]  md:absolute md:top-4 md:mx-auto">
+    <header className="bg-white md:rounded px-4 py-5 md:py-4 relative shadow-sm md:w-[1250px]  md:absolute md:top-4 md:mx-auto  ">
       <Container>
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2"> 
-            <Image src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728723102/first-med-logo-_1__q4i6sa.svg" width={30} height={30} />
+          <div className="flex items-center gap-2 "> 
+            <Image src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728723102/first-med-logo-_1__q4i6sa.svg" width={30} height={30} className=" "/>
 
             <h1 className="text-[#00856f] text-[24px] font-[family-name:var(--font-proxnovabold)] font-[600]" >ORI-IRE</h1>
           </div>
 
-          <div className="text-gray-500 font-extrabold text-xl lg:hidden">
+          <div className="text-gray-500 font-extrabold text-xl md:hidden">
             {!display ? (
               <CiMenuBurger onClick={() => setDisplay(true)} size={28} />
             ) : (
