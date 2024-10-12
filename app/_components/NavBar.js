@@ -5,6 +5,8 @@ import { useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import { MdClose } from "react-icons/md";
 import Container from "./Container";
+import Image from "next/image";
+
 
 
 export default function Navbar() {
@@ -14,9 +16,10 @@ export default function Navbar() {
     <header className="bg-white md:rounded px-4 py-8 md:py-4 relative shadow-sm md:w-[1250px]  md:absolute md:top-4 md:mx-auto">
       <Container>
         <div className="flex items-center justify-between">
-          <div className=""> 
-            
-            <h1 className="text-[#00856f] text-xl font-[family-name:var(--font-proxnovabold)] font-[600]" >ORI-IRE</h1>
+          <div className="flex items-center gap-2"> 
+            <Image src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728723102/first-med-logo-_1__q4i6sa.svg" width={30} height={30} />
+
+            <h1 className="text-[#00856f] text-[24px] font-[family-name:var(--font-proxnovabold)] font-[600]" >ORI-IRE</h1>
           </div>
 
           <div className="text-gray-500 font-extrabold text-xl lg:hidden">
@@ -32,7 +35,7 @@ export default function Navbar() {
               !display ? "hidden" : ""
             }`}
           >
-            <ul className="flex flex-col justify-center items-center h-full gap-10 text-xl md:text-[16px] font-bold text-[#050505] lg:flex-row lg:w-fit lg:gap-10">
+            <ul className="flex flex-col justify-center items-center h-full gap-10 text-xl md:text-[18px] font-bold text-[#050505] lg:flex-row lg:w-fit lg:gap-10">
               <li>
                 <Link href="/">Home</Link>
               </li>
