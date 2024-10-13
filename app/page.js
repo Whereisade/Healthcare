@@ -2,21 +2,22 @@ import Image from "next/image";
 import Container from "./_components/Container";
 import Button from "./_components/Button";
 import Heading1 from "./_components/Heading1";
+import StatBar from "./_components/StatBar";
 
 export default function Home() {
   return (
     <>
       <section className="bg-[#005350] w-full ">
         <Container>
-          <div className=" pt-[16px] px-[8px] md:px-[16px]  md:pt-[90px] flex flex-col-reverse md:flex-row  gap-5 md:gap-15 ">
-            <div className=" md:flex md:flex-col md:justify-center mb-2  ">
+          <div className=" py-[16px] px-[8px] md:px-[16px]  md:pt-[90px] flex flex-col-reverse md:flex-row  gap-5 md:gap-15 ">
+            <div className=" md:flex md:flex-col md:justify-center   ">
               <h1
                 className={`font-[family-name:var(--font-domainer)] font-[500] md:mb-4 md:font-[400] text-[30px] md:text-[67px] leading-[36px] md:leading-[68px] text-white md:w-fit`}
               >
                 Embrace a healthier you, Discover the power of personalized care
               </h1>
               <p
-                className={`font-[family-name:var(--font-proxnovar)] mt-4  font-[300] leading-[23px] md:mt-6 mb-4 md:mb-8 text-white`}
+                className={`font-[family-name:var(--font-proxnovar)] mt-4  font-[300] leading-[23px] md:mt-6 mb-4 md:mb-8 text-white md:w-[70%]`}
               >
                 More than medicine. We provide holistic support clinical,
                 financial, and emotional for every stage of your life's journey
@@ -35,17 +36,53 @@ export default function Home() {
         </Container>
       </section>
 
-      <section>
+      <section className="bg-slate-400 w-full">
         <Container>
-         <div className="md:flex p-[8px] md:px-[16px] md:justify-center md:items-center flex flex-col-reverse md:flex-row">
-           <div className=" md:w-[40%] flex flex-col gap-6 mt-4">
-             <Heading1 head="Healing Starts Here" para="Effective treatment depends on getting the right diagnosis. Our experts diagnose and treat the toughest medical challenges. Ori Ire medical center has more No. 1 rankings than any other hospital in the nation"/>
-             <Button text="Why Choose Ori Ire" tcolo="text-[#005350]" bordercolo="border-[#005350]" />
-           </div>
+          <StatBar></StatBar>
+        </Container>
+      </section>
 
-           <Image src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728766719/Gemini_Generated_Image_8y6bfr8y6bfr8y6b_obdnrf.jpg" width={600} height={500} className="rounded-lg"></Image>
-         </div>
+      <section className="mt-5">
+        <Container>
+          <div className="md:flex p-[8px] md:px-[16px] md:justify-center md:items-center flex flex-col md:flex-row  md:gap-8">
+            <Image
+              src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728776130/Gemini_Generated_Image_73bnuc73bnuc73bn_gkq2jg.jpg"
+              width={600}
+              height={500}
+              className="rounded-lg"
+            ></Image>
+            <div className=" md:w-[40%] flex flex-col gap-6 mt-4">
+              <Heading1
+                head="International healthcare excellence"
+                para="Your health is your greatest asset. Let's unlock your full potential"
+              />
+              <Button
+                text="Why Choose Ori Ire"
+                tcolo="text-[#005350]"
+                bordercolo="border-[#005350]"
+              />
+            </div>
+          </div>
+          <div className="md:flex p-[8px] md:px-[16px] md:justify-center md:items-center flex flex-col-reverse md:flex-row mt-8 ">
+            <div className=" md:w-[40%] flex flex-col gap-6 mt-4">
+              <Heading1
+                head="Healing Starts Here"
+                para="Effective treatment depends on getting the right diagnosis. Our experts diagnose and treat the toughest medical challenges. Ori Ire medical center has more No. 1 rankings than any other hospital in the nation"
+              />
+              <Button
+                text="Why Choose Ori Ire"
+                tcolo="text-[#005350]"
+                bordercolo="border-[#005350]"
+              />
+            </div>
 
+            <Image
+              src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728766719/Gemini_Generated_Image_8y6bfr8y6bfr8y6b_obdnrf.jpg"
+              width={600}
+              height={500}
+              className="rounded-lg"
+            ></Image>
+          </div>
         </Container>
       </section>
     </>
