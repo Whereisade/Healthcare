@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Container from "./_components/Container";
 import Button from "./_components/Button";
-import Heading1 from "./_components/Heading1";
+
 import StatBar from "./_components/StatBar";
+import Section from "./_components/Section";
 
 export default function Home() {
   return (
@@ -44,7 +45,25 @@ export default function Home() {
 
       <section className="mt-5">
         <Container>
-          <div className="md:flex p-[8px] md:px-[16px] md:justify-center md:items-center flex flex-col md:flex-row  md:gap-8">
+           <>
+             <Section
+              title="International Healthcare Excellence"
+              description="Your health is your greatest asset. Let's unlock your full potential"
+              imageSrc="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728776130/Gemini_Generated_Image_73bnuc73bnuc73bn_gkq2jg.jpg"
+              
+             />
+             <Section
+              title="Healing Starts Here"
+              description="Effective treatment depends on getting the right diagnosis. Our experts diagnose and treat the toughest medical challenges. Ori Ire medical center has more No. 1 rankings than any other hospital in the nation"
+              imageSrc="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728766719/Gemini_Generated_Image_8y6bfr8y6bfr8y6b_obdnrf.jpg"
+               reversed
+             />
+           </>
+
+
+
+
+          {/* <div className="md:flex p-[8px] md:px-[16px] md:justify-center md:items-center flex flex-col md:flex-row  md:gap-8">
             <Image
               src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728776130/Gemini_Generated_Image_73bnuc73bnuc73bn_gkq2jg.jpg"
               width={600}
@@ -63,6 +82,8 @@ export default function Home() {
               />
             </div>
           </div>
+
+        
           <div className="md:flex p-[8px] md:px-[16px] md:justify-center md:items-center flex flex-col-reverse md:flex-row mt-8 ">
             <div className=" md:w-[40%] flex flex-col gap-6 mt-4">
               <Heading1
@@ -82,8 +103,17 @@ export default function Home() {
               height={500}
               className="rounded-lg"
             ></Image>
-          </div>
+          </div> */} 
+           
+
+           
+
+
         </Container>
+      </section>
+
+      <section>
+        
       </section>
     </>
   );
