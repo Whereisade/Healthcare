@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function StatBar() {
   return (
-    <section className="py-7 px-60  flex flex-col md:flex-row md:gap-[120px]">
+    <section className="py-7 px-60  flex flex-col md:flex-row md:gap-[120px] font-[family-name:var(--font-domainer)]">
         <div>
             <h1 className="text-5xl ">3500+</h1>
             <p>Consultations</p>
