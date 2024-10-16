@@ -45,10 +45,10 @@ export default function Home() {
 
       <section className="mt-5">
         <Container>
-           <>
+           <div className="flex flex-col gap-4">
              <Section
               title="International Healthcare Excellence"
-              description="Your health is your greatest asset. Let's unlock your full potential"
+              description="Your health is your most valuable possession. It's the foundation for a vibrant and fulfilling life.  At Ori Ire Medical Center, we believe health is more than just the absence of disease. It's about achieving optimal well-being in all aspects of your life physical, mental, and emotional. Let us partner with you on your journey to unlock your full potential and live your best life"
               imageSrc="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728776130/Gemini_Generated_Image_73bnuc73bnuc73bn_gkq2jg.jpg"
               
              />
@@ -58,7 +58,7 @@ export default function Home() {
               imageSrc="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728766719/Gemini_Generated_Image_8y6bfr8y6bfr8y6b_obdnrf.jpg"
                reversed
              />
-           </>
+           </div>
 
 
 
