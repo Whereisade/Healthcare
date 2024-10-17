@@ -1,11 +1,11 @@
 import React from 'react'
 import Button from './Button';
-
+import Link from 'next/link';
 
 export default function Footer() {
   return (
     <section className="bg-[#005350] text-white py-20 px-8 md:px-20 font-[family-name:var(--font-domainer)]">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w- mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-6 ">
           Schedule your appointment today!
         </h2>
@@ -22,23 +22,23 @@ export default function Footer() {
         <div className="md:w-1/2">
           <div className="mb-4">
             <span className="font-medium">Email</span>
-            <a
+            <Link
               href="mailto:hello@oriire.com"
               className="text-blue-300 hover:text-blue-400"
             >
               {" "}
               hello@oriire.com
-            </a>
+            </Link>
           </div>
           <div className="mb-4">
             <span className="font-medium">Phone</span>
-            <a
+            <Link
               href="tel:+2348155083221"
               className="text-blue-300 hover:text-blue-400"
             >
               {" "}
               (+234) 8155083221
-            </a>
+            </Link>
           </div>
           <div>
             <span className="font-medium">Address</span>
@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 md:mt-0 md:w-1/4">
           <div className="flex space-x-6">
-            <a href="#" className="text-blue-300 hover:text-blue-400">
+            <Link href="#" className="text-blue-300 hover:text-blue-400">
               <span className="sr-only">Twitter</span>
               <svg
                 className="w-6 h-6"
@@ -59,7 +59,7 @@ export default function Footer() {
               >
                 {/* ... Twitter SVG icon code ... */}
               </svg>
-            </a>
+            </Link>
             {/* ... Similar code for Facebook, Instagram, LinkedIn ... */}
           </div>
         </div>

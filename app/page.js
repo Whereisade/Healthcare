@@ -39,16 +39,16 @@ export default function Home() {
 
       <section className="bg-slate-400 w-full">
         <Container>
-          <StatBar></StatBar>
+          <StatBar/>
         </Container>
       </section>
 
       <section className="mt-5">
         <Container>
-           <div className="flex flex-col gap-4">
+           <div className="flex flex-col gap-[100px]">
              <Section
               title="International Healthcare Excellence"
-              description="Your health is your most valuable possession. It's the foundation for a vibrant and fulfilling life.  At Ori Ire Medical Center, we believe health is more than just the absence of disease. It's about achieving optimal well-being in all aspects of your life physical, mental, and emotional. Let us partner with you on your journey to unlock your full potential and live your best life"
+              description="Your health is your most valuable possession. It's the foundation for a vibrant and fulfilling life.  At Ori Ire Medical Center, we believe health is more than just the absence of disease."
               imageSrc="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728776130/Gemini_Generated_Image_73bnuc73bnuc73bn_gkq2jg.jpg"
               
              />
@@ -59,54 +59,6 @@ export default function Home() {
                reversed
              />
            </div>
-
-
-
-
-          {/* <div className="md:flex p-[8px] md:px-[16px] md:justify-center md:items-center flex flex-col md:flex-row  md:gap-8">
-            <Image
-              src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728776130/Gemini_Generated_Image_73bnuc73bnuc73bn_gkq2jg.jpg"
-              width={600}
-              height={500}
-              className="rounded-lg"
-            ></Image>
-            <div className=" md:w-[40%] flex flex-col gap-6 mt-4">
-              <Heading1
-                head="International healthcare excellence"
-                para="Your health is your greatest asset. Let's unlock your full potential"
-              />
-              <Button
-                text="Why Choose Ori Ire"
-                tcolo="text-[#005350]"
-                bordercolo="border-[#005350]"
-              />
-            </div>
-          </div>
-
-        
-          <div className="md:flex p-[8px] md:px-[16px] md:justify-center md:items-center flex flex-col-reverse md:flex-row mt-8 ">
-            <div className=" md:w-[40%] flex flex-col gap-6 mt-4">
-              <Heading1
-                head="Healing Starts Here"
-                para="Effective treatment depends on getting the right diagnosis. Our experts diagnose and treat the toughest medical challenges. Ori Ire medical center has more No. 1 rankings than any other hospital in the nation"
-              />
-              <Button
-                text="Why Choose Ori Ire"
-                tcolo="text-[#005350]"
-                bordercolo="border-[#005350]"
-              />
-            </div>
-
-            <Image
-              src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728766719/Gemini_Generated_Image_8y6bfr8y6bfr8y6b_obdnrf.jpg"
-              width={600}
-              height={500}
-              className="rounded-lg"
-            ></Image>
-          </div> */} 
-           
-
-           
 
 
         </Container>

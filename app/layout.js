@@ -39,13 +39,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={ `md:flex md:justify-center md:items-center md:flex-col border ${domaineDisplay.variable} ${proxNovar.variable}`}
         
-        >
+      >
           
           <Navbar />
 
         
         {children}
-        <Footer></Footer>
+        <Footer />
       </body>
     </html>
   );

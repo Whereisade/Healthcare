@@ -13,7 +13,7 @@ export default function Navbar() {
   const [display, setDisplay] = useState(false);
 
   return (
-    <header className="bg-white md:rounded px-4 py-5 md:py-4 relative shadow-sm md:w-[1250px]  md:absolute md:top-4 md:mx-auto  ">
+    <header className="bg-white z-50 md:rounded px-4 py-5 md:py-4 relative shadow-sm md:w-[1250px]  md:absolute md:top-4 md:mx-auto  ">
       <Container>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2 "> 
