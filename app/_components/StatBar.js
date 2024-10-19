@@ -1,8 +1,12 @@
 import React from 'react'
+import Container from './Container'
 
 export default function StatBar() {
   return (
-    <section className="py-7 px-60  flex flex-col md:flex-row md:gap-[120px] font-[family-name:var(--font-domainer)]">
+    <section className="">
+        <Container>
+            <div className="py-7 px-60  flex flex-col justify-center md:flex-row md:gap-28 font-[family-name:var(--font-domainer)]">
+    
         <div>
             <h1 className="text-5xl ">3500+</h1>
             <p>Consultations</p>
@@ -19,6 +23,10 @@ export default function StatBar() {
             <h1 className="text-5xl">34+</h1>
             <p>Years Experience</p>
         </div>
+
+            </div>
+
+        </Container>
     </section>
   )
 }

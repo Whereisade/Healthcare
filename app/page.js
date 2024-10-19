@@ -38,12 +38,12 @@ export default function Home() {
       </section>
 
       <section className="bg-slate-400 w-full">
-        <Container>
+        
           <StatBar />
-        </Container>
+        
       </section>
 
-      <section className="mt-5">
+      <section className="mt-5 ">
         <Container>
            <div className="flex flex-col gap-[100px]">
              <Section
