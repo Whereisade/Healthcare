@@ -19,7 +19,7 @@ export default function Navbar() {
           <div className="flex items-center gap-2 "> 
             <Image src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728723102/first-med-logo-_1__q4i6sa.svg" width={30} height={30} className=" "/>
 
-            <h1 className="text-[#00856f] text-[24px] font-[family-name:var(--font-proxnovabold)] font-[600]" >ORI-IRE</h1>
+            <h1 className="text-[#00856f] text-[24px] font-[family-name:var(--font-proxnovabold)] font-[600] cursor-pointer" >ORI-IRE</h1>
           </div>
 
           <div className="text-gray-500 font-extrabold text-xl md:hidden">

@@ -38,48 +38,52 @@ export default function Home() {
         </Container>
       </section>
 
-      <section className="bg-slate-400 w-full">
-        
-          <StatBar />
-        
+      <section className="bg-[#F1F7F6] w-full">
+        <StatBar  className="justify-self-center "/>
       </section>
 
       <section className="mt-5 ">
         <Container>
-           <div className="flex flex-col gap-[100px]">
-             <Section
+          <div className="flex flex-col gap-24 p-6">
+            <Section
               title="International Healthcare Excellence"
               description="Your health is your most valuable possession. It's the foundation for a vibrant and fulfilling life.  At Ori Ire Medical Center, we believe health is more than just the absence of disease."
               imageSrc="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728776130/Gemini_Generated_Image_73bnuc73bnuc73bn_gkq2jg.jpg"
-              
-             />
-             <Section
+            />
+            <Section
               title="Healing Starts Here"
               description="Effective treatment depends on getting the right diagnosis. Our experts diagnose and treat the toughest medical challenges. Ori Ire medical center has more No. 1 rankings than any other hospital in the nation"
               imageSrc="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728766719/Gemini_Generated_Image_8y6bfr8y6bfr8y6b_obdnrf.jpg"
-               reversed
-             />
-           </div>
-
-
-           
-
-
+              reversed
+            />
+          </div>
         </Container>
       </section>
 
-      <section className="bg-[#F1F7F6]">
+      <section className="bg-[#F1F7F6] w-full">
         <Container>
-          <div className="p-7 md:p-16">
+          <div className="p-6 md:p-16  md:justify-self-center ">
             <Heading1 head="Find the care you are looking for" />
-            <div>
-              <Carecard tophead="24/7 virtual care" ctext1="Uninterrupted Access to Care" ctext2="No Appointment Needed"/>
 
+            <div className="flex flex-col md:flex-row gap-6  md:justify-self-center">
+              <Carecard
+                tophead="24/7 virtual care"
+                ctext1="Uninterrupted Access to Care"
+                ctext2="No Appointment Needed"
+              />
+              <Carecard
+                tophead="Primary Care"
+                ctext1="Personalized Care"
+                ctext2="Preventive & Proactive Health"
+              />
+              <Carecard
+                tophead="Urgent Care"
+                ctext1="Walk-In Clinic Convenience"
+                ctext2="Beyond the Emergency Room"
+              />
             </div>
           </div>
-
         </Container>
-        
       </section>
     </>
   );

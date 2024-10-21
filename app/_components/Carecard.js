@@ -23,7 +23,7 @@ export default function Carecard({tophead, ctext1, ctext2}) {
 
         </div>
 
-        <FaCircleArrowRight  className='text-5xl '/>
+        <FaCircleArrowRight  className='text-5xl cursor-pointer'/>
 
 
     </div>
