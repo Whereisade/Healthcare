@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Container from "./_components/Container";
 import Button from "./_components/Button";
-
+import Carecard from "./_components/Carecard";
 import StatBar from "./_components/StatBar";
 import Section from "./_components/Section";
+import Heading1 from "./_components/Heading1";
 
 export default function Home() {
   return (
@@ -67,7 +68,17 @@ export default function Home() {
         </Container>
       </section>
 
-      <section>
+      <section className="bg-[#F1F7F6]">
+        <Container>
+          <div className="p-7 md:p-16">
+            <Heading1 head="Find the care you are looking for" />
+            <div>
+              <Carecard tophead="24/7 virtual care" ctext1="Uninterrupted Access to Care" ctext2="No Appointment Needed"/>
+
+            </div>
+          </div>
+
+        </Container>
         
       </section>
     </>
