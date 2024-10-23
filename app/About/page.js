@@ -4,18 +4,15 @@ import Image from 'next/image';
 import Bannersection from '../_components/Bannersection';
 
 
+
 export default function page() {
   return (
     <>
-    <section>
-      <Container>
-        <Bannersection />
-      </Container>
-
-
-    </section>
-
-
+      <section>
+        <Container>
+          <Bannersection></Bannersection>
+        </Container>
+      </section>
     </>
-  )
+  );
 }

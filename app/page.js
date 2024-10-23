@@ -28,12 +28,16 @@ export default function Home() {
               <Button text="Request A Call" tcolo="text-white" className="" />
             </div>
 
+            
+
             <Image
               src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728657065/Gemini_Generated_Image_y58ra3y58ra3y58r_tgswvb.jpg"
               width={600}
               height={600}
-              className="rounded-lg"
+              className="rounded-lg w-full h-full"
             />
+            
+
           </div>
         </Container>
       </section>
