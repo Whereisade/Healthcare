@@ -35,7 +35,7 @@ export default function Navbar() {
               !display ? "hidden" : ""
             }`}
           >
-            <ul className="flex flex-col justify-center items-center h-full gap-10 text-xl md:text-[18px] font-bold text-[#050505] lg:flex-row lg:w-fit lg:gap-10">
+            <ul className="flex flex-col justify-center items-center h-full gap-10 text-xl md:text-[18px] font-medium text-[#050505] lg:flex-row lg:w-fit lg:gap-10">
               <li>
                 <Link href="/">Home</Link>
               </li>
@@ -49,7 +49,7 @@ export default function Navbar() {
                 <Link href="/Blog">Blog</Link>
               </li>
               <li>
-                <Link href="/contact">Contact Us</Link>
+                <Link href="/Contact">Contact Us</Link>
               </li>
               
                

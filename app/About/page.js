@@ -20,9 +20,9 @@ export default function page() {
 
       <section>
         <Container>
-          <div className="px-14 py-10 ">
+          <div className=" px-4 md:px-14 py-10 ">
             <HeadingLine tophead="Our Story" left2 />
-            <div className="flex gap-6 md:gap-12 ">
+            <div className="flex flex-col md:flex-row gap-6 md:gap-12 ">
               <Image
                 src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1729669012/Gemini_Generated_Image_6jr5336jr5336jr5_msldo6.jpg"
                 width={500}
@@ -31,7 +31,7 @@ export default function page() {
                 className="rounded"
               />
 
-              <div className="text-[17px] flex flex-col gap-4 font-medium opacity-90">
+              <div className="text-[16px] flex flex-col gap-4 font-medium opacity-90">
                 <p>
                   Dr. Amina Abubakar, a dedicated physician with a heart for her
                   community, founded Ori-Ire Medical Center in the vibrant Ikoyi
@@ -77,7 +77,7 @@ export default function page() {
 
       <section className="bg-[#005350]">
         <Container>
-          <div className="px-14 py-10">
+          <div className="px-4 md:px-14 py-10">
             <HeadingLine tophead="Our Team" left color />
 
             <p className="font-medium opacity-95 text-white ">
@@ -95,7 +95,7 @@ export default function page() {
 
       <section className="bg-[#F1F7F6] ">
         <Container>
-          <div className="flex md:p-16 md:gap-28 justify-center items-center">
+          <div className="flex flex-col md:flex-row md:p-16 md:gap-28 justify-center items-center">
             <Image
               src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1729723307/image_2_nvafnq.svg"
               width={400}

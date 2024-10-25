@@ -17,7 +17,7 @@ export default function Section({ title, description, imageSrc, reversed }) {
           className="rounded-lg shadow-md"
         />
       </div>
-      <div className="md:w-[340px] p-1  md:flex md:flex-col md:gap-4 ">
+      <div className="md:max-w-[380px] p-1  md:flex md:flex-col md:gap-4 ">
         <h2 className="text-[30px] md:text-[32px] font-[family-name:var(--font-domainer)] font-[600] w-fit ">
           {title}
         </h2>

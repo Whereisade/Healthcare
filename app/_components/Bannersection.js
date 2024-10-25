@@ -4,7 +4,7 @@ import Para1 from "./Para1";
 
 export default function Bannersection({bhead}) {
   return (
-    <section className=" py-[16px] px-[8px] md:px-16 md:h-[600px]  justify-center  md:pt-[90px] flex flex-col gap-5 md:gap-15">
+    <section className=" py-[16px] px-[8px] md:px-16 h-[300px] md:h-[600px]  justify-center  md:pt-[90px] flex flex-col gap-5 md:gap-15">
       <HeadingBig head={bhead}/>
       
       

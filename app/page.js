@@ -5,6 +5,7 @@ import Carecard from "./_components/Carecard";
 import StatBar from "./_components/StatBar";
 import Section from "./_components/Section";
 import Heading1 from "./_components/Heading1";
+import Heading2 from "./_components/Heading2";
 
 export default function Home() {
   return (
@@ -93,10 +94,10 @@ export default function Home() {
       <section>
         <Container>
           <div>
-            <Heading1 head="Departments" />
+            <Heading2 head="Departments" />
 
             <div>
-              
+
             </div>
 
           </div>

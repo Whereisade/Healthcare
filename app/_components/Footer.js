@@ -21,22 +21,22 @@ export default function Footer() {
       <div className="mt-16 md:flex md:justify-between md:items-center">
         <div className="md:w-1/2">
           <div className="mb-4">
-            <span className="font-medium">Email</span>
+            <span className="font-medium">Email: </span>
             <Link
               href="mailto:hello@oriire.com"
               className="text-blue-300 hover:text-blue-400"
             >
-              {" "}
+              
               hello@oriire.com
             </Link>
           </div>
           <div className="mb-4">
-            <span className="font-medium">Phone</span>
+            <span className="font-medium">Phone: </span>
             <Link
               href="tel:+2348155083221"
               className="text-blue-300 hover:text-blue-400"
             >
-              {" "}
+              
               (+234) 8155083221
             </Link>
           </div>
