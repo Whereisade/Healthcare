@@ -50,7 +50,7 @@ export default function Home() {
         <Container>
           <div className="flex flex-col gap-24 p-6">
             <Section
-              title="International Healthcare Excellence"
+              title="Healthcare Excellence"
               description="Your health is your most valuable possession. It's the foundation for a vibrant and fulfilling life.  At Ori Ire Medical Center, we believe health is more than just the absence of disease."
               imageSrc="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728776130/Gemini_Generated_Image_73bnuc73bnuc73bn_gkq2jg.jpg"
             />
@@ -88,6 +88,21 @@ export default function Home() {
             </div>
           </div>
         </Container>
+      </section>
+
+      <section>
+        <Container>
+          <div>
+            <Heading1 head="Departments" />
+
+            <div>
+              
+            </div>
+
+          </div>
+
+        </Container>
+
       </section>
     </>
   );

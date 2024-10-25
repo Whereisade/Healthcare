@@ -14,7 +14,7 @@ export default function page() {
     <>
       <section className="bg-[#F1F7F6] w-full">
         <Container>
-          <Bannersection></Bannersection>
+          <Bannersection bhead="About Us"/>
         </Container>
       </section>
 

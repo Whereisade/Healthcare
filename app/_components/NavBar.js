@@ -17,7 +17,7 @@ export default function Navbar() {
       <Container>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2 "> 
-            <Image src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728723102/first-med-logo-_1__q4i6sa.svg" width={30} height={30} className=" "/>
+            <Image src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1729871975/Mask_group_p49jo1.svg" width={30} height={30} className=" "/>
 
             <h1 className="text-[#00856f] text-[24px] font-[family-name:var(--font-proxnovabold)] font-[600] cursor-pointer" >ORI-IRE</h1>
           </div>
@@ -43,7 +43,7 @@ export default function Navbar() {
                 <Link href="/About">About</Link>
               </li>
               <li>
-                <Link href="/services">Services</Link>
+                <Link href="/Services">Services</Link>
               </li>
               <li>
                 <Link href="/Blog">Blog</Link>
