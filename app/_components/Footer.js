@@ -57,10 +57,10 @@ export default function Footer() {
                 viewBox="0 0 24 24"
                 aria-hidden="true"
               >
-                {/* ... Twitter SVG icon code ... */}
+                
               </svg>
             </Link>
-            {/* ... Similar code for Facebook, Instagram, LinkedIn ... */}
+            
           </div>
         </div>
       </div>
