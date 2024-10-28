@@ -1,7 +1,9 @@
+'use client';
+import { faqs } from './Faqdata';
 
 import { useState } from 'react';
 
-export default function FAQItem({ question, answer }) {
+export default function Faqbox({ question, answer }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -17,3 +19,4 @@ export default function FAQItem({ question, answer }) {
     </div>
   );
 }
+
