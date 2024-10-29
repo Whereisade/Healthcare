@@ -2,22 +2,31 @@ import React from 'react'
 import Container from '../_components/Container'
 import Bannersection from '../_components/Bannersection'
 import Twoheading from '../_components/Twoheading'
+import Trustcard from '../_components/Trustcard';
 
 export default function page() {
   return (
     <>
-    <section>
+      <section>
         <Container>
-            <Bannersection bhead="Superior Services Through Expert Medical Practice"/>
+          <Bannersection bhead="Superior Services Through Expert Medical Practice" />
         </Container>
-    </section>
+      </section>
 
-    <section>
+      <section>
         <Container>
-            <Twoheading></Twoheading>
-        </Container>
-    </section>
+          <div className='flex p-8'>
+            <Twoheading />
 
+            <div className='flex flex-col gap-4'>
+                <Trustcard/>
+                <Trustcard/>
+                <Trustcard/>
+                <Trustcard/>
+            </div>
+          </div>
+        </Container>
+      </section>
     </>
-  )
+  );
 }
