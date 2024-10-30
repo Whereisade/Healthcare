@@ -4,7 +4,7 @@ import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 export default function Blogbox() {
   return (
-    <div className="w-[350px] h-[460px]  rounded-md px-4 py-2 flex flex-col gap-5 bg-[#E0EDFF]">
+    <div className="w-[350px] h-[460px]  rounded-md px-4 py-2 flex flex-col gap-5 bg-[#E0EDFF] font-[family-name:var(--font-proxnovar)]">
       <div className="w-[320px] h-[250px] relative justify-self-center  ">
         <Image
           src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1730125538/anime-boy-chill-digital-art-hd-wallpaper-uhdpaper.com-284_0_j_tb35wu.jpg"
@@ -14,7 +14,7 @@ export default function Blogbox() {
         />
       </div>
 
-      <p className="p-1 rounded-lg text-[12px] bg-blue-600 w-fit text-white">
+      <p className="p-1 rounded-lg text-[12px] bg-blue-600 w-fit text-white ">
         Dec 13, 2023
       </p>
 

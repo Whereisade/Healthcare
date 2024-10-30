@@ -44,13 +44,13 @@ export default function Home() {
         </Container>
       </section>
 
-      <section className="bg-[#F1F7F6] w-full">
+      <section className="bg-[#E0EDFF] w-full">
         <StatBar  className="justify-self-center "/>
       </section>
 
       <section className="mt-5 ">
         <Container>
-          <div className="flex flex-col gap-24 p-6">
+          <div className="flex flex-col gap-24 p-6 md:p-16">
             <Section
               title="Healthcare Excellence"
               description="Your health is your most valuable possession. It's the foundation for a vibrant and fulfilling life.  At Ori Ire Medical Center, we believe health is more than just the absence of disease."
@@ -66,9 +66,9 @@ export default function Home() {
         </Container>
       </section>
 
-      <section className="bg-[#E0EDFF] w-full">
+      <section className=" w-full">
         <Container>
-          <div className="p-6 md:p-16  md:justify-self-center ">
+          <div className="bg-[#E0EDFF]  p-6 md:p-16  md:justify-self-center rounded-[32px] ">
             <Heading1 head="Find the care you are looking for" />
 
             <div className="flex flex-col md:flex-row gap-6  md:justify-self-center">
@@ -94,11 +94,11 @@ export default function Home() {
 
       <section className="">
         <Container>
-          <div>
-            <Heading2 head="Departments" />
+          <div className="flex flex-col items-center p-6 md:p-16">
+            <Heading2 head="" />
 
             <div>
-              <ServicesList/>
+              
 
             </div>
 

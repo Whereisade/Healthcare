@@ -5,19 +5,23 @@ import { GoPlus } from "react-icons/go";
 import { HiMiniMinusSmall } from "react-icons/hi2";
 
 const Faq = () => {
-  // the State that helps me check which FAQ stuff is open
+  
   const [activeIndex, setActiveIndex] = useState(null);
 
   
   const faqs = [
     { question: "What specialties do your doctors cover?", 
-      answer: "Our doctors specialize in various fields including cardiology, dermatology, orthopedics, and more." },
+      answer: "Our doctors specialize in various fields including cardiology, dermatology, orthopedics, and more." 
+    },
     { question: "Which insurance plans do you accept?", 
-      answer: "We accept most major insurance plans. Please contact us for more details." },
+      answer: "We accept most major insurance plans. Please contact us for more details." 
+    },
     { question: "How can I schedule an appointment?", 
-      answer: "You can schedule an appointment by calling us or through our online booking system on our website." },
+      answer: "You can schedule an appointment by calling us or through our online booking system on our website." 
+    },
     { question: "What should I bring to my appointment?", 
-      answer: "Please bring a valid ID, insurance information, and any medical records relevant to your visit." },
+      answer: "Please bring a valid ID, insurance information, and any medical records relevant to your visit." 
+    },
     { question: "Do you offer telemedicine or virtual visits?", 
       answer: "Yes, we offer telemedicine appointments for your convenience." 
     },
@@ -27,7 +31,7 @@ const Faq = () => {
     },
   ];
 
-  // jelp me show or hide an answer of the faq
+  
   const toggleFAQ = (index) => {
     setActiveIndex(index === activeIndex ? null : index);
   };
@@ -37,13 +41,13 @@ const Faq = () => {
       
       
       
-      <div className="flex flex-col lg:flex-row items-start w-full max-w-4xl">
+      <div className="flex flex-col lg:flex-row items-start w-full max-w-4xl md:gap-8 font-[family-name:var(--font-proxnovar)]">
         
         
         <div className="lg:w-1/2 flex justify-center mb-4 lg:mb-0">
           <Image
             src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1730125538/anime-boy-chill-digital-art-hd-wallpaper-uhdpaper.com-284_0_j_tb35wu.jpg"
-            width={300}
+            width={500}
             height={300}  
             alt="Nurse with headset"
             className="rounded-lg shadow-lg max-w-full h-auto"
@@ -60,7 +64,7 @@ const Faq = () => {
                 onClick={() => toggleFAQ(index)}
                 className="flex justify-between items-center cursor-pointer"
               >
-                <span className="font-medium">{faq.question}</span>
+                <span className="font-medium ">{faq.question}</span>
                 <span>{activeIndex === index ? <HiMiniMinusSmall /> : <GoPlus />}</span>
               </div>
               

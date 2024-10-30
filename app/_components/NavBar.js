@@ -41,19 +41,19 @@ export default function Navbar() {
             }`}
           >
             <ul className="flex flex-col justify-center items-center h-full gap-10 text-xl md:text-[18px] font-medium text-[#050505] lg:flex-row lg:w-fit lg:gap-10">
-              <li>
+              <li className="hover:text-[#3D65FF] hover:transition-colors">
                 <Link href="/">Home</Link>
               </li>
-              <li>
+              <li className="hover:text-[#3D65FF] hover:transition-colors">
                 <Link href="/About">About</Link>
               </li>
-              <li>
+              <li className="hover:text-[#3D65FF] hover:transition-colors">
                 <Link href="/Services">Services</Link>
               </li>
-              <li>
+              <li className="hover:text-[#3D65FF] hover:transition-colors">
                 <Link href="/Blog">Blog</Link>
               </li>
-              <li>
+              <li className="hover:text-[#3D65FF] hover:transition-colors">
                 <Link href="/Contact">Contact Us</Link>
               </li>
             </ul>
