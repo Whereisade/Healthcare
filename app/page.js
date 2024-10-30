@@ -6,6 +6,7 @@ import StatBar from "./_components/StatBar";
 import Section from "./_components/Section";
 import Heading1 from "./_components/Heading1";
 import Heading2 from "./_components/Heading2";
+import ServicesList from "./_components/ServicesList";
 
 export default function Home() {
   return (
@@ -91,12 +92,13 @@ export default function Home() {
         </Container>
       </section>
 
-      <section>
+      <section className="">
         <Container>
           <div>
             <Heading2 head="Departments" />
 
             <div>
+              <ServicesList/>
 
             </div>
 

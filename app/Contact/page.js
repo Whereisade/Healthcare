@@ -38,17 +38,10 @@ export default function () {
 
       <section>
         <Container>
-          <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+          <div >
+            <Faqbox></Faqbox>
 
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 p-8 bg-blue-50 rounded-lg">
-            {faqs.map((faq, index) => (
-              <Faqbox
-                key={index}
-                question={faqs.question}
-                answer={faqs.answer}
-              />
-            ))}
-          </div>
+         
           </div>
         </Container>
       </section>
