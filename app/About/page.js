@@ -31,7 +31,7 @@ export default function page() {
                 className="rounded"
               />
 
-              <div className="text-[16px] flex flex-col gap-4 font-medium opacity-90">
+              <div className="text-[16px] font-[family-name:var(--font-proxnovar)] flex flex-col gap-4 font-medium opacity-90">
                 <p>
                   Dr. Amina Abubakar, a dedicated physician with a heart for her
                   community, founded Ori-Ire Medical Center in the vibrant Ikoyi
@@ -75,12 +75,12 @@ export default function page() {
         </Container>
       </section>
 
-      <section className="bg-[#005350]">
+      <section className="bg-[#E0EDFF]">
         <Container>
-          <div className="px-4 md:px-14 py-10">
-            <HeadingLine tophead="Our Team" left color />
+          <div className="px-4 md:px-14 py-10 ">
+            <HeadingLine tophead="Our Team" left  />
 
-            <p className="font-medium opacity-95 text-white ">
+            <p className=" font-[family-name:var(--font-proxnovar)] opacity-95  ">
               Our talented and highly committed team drives our success in
               innovating sustainable healthcare solutions that advance patient
               care outcomes. Ori-Ire experience in healthcare, combined with the
@@ -101,7 +101,7 @@ export default function page() {
               width={400}
               height={500}
             />
-            <div className='md:w-1/2'>
+            <div className='md:w-1/2 flex flex-col md:gap-2'>
               <Heading2 head="WE ARE HERE FOR YOU" />
               <Para1 textb="Whether you're seeking support for an acute situation, ready to take a new direction in life, or looking for a transformative experience, we are here to guide you towards achieving your goals." />
             </div>

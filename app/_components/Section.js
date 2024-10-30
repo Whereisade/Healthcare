@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Section({ title, description, imageSrc, reversed }) {
   return (
     <section
-      className={`flex flex-col items-center justify-center  md:gap-14 ${
+      className={`flex flex-col items-center justify-center text-[#13182F]  md:gap-14 ${
         reversed ? "md:flex-row-reverse" : "md:flex-row"
       }`}
     >

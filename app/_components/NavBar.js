@@ -7,8 +7,6 @@ import { MdClose } from "react-icons/md";
 import Container from "./Container";
 import Image from "next/image";
 
-
-
 export default function Navbar() {
   const [display, setDisplay] = useState(false);
 
@@ -16,10 +14,17 @@ export default function Navbar() {
     <header className="bg-white z-50 md:rounded px-4 py-5 md:py-4 relative shadow-sm md:w-[1250px]  md:absolute md:top-4 md:mx-auto  ">
       <Container>
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2 "> 
-            <Image src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1729871975/Mask_group_p49jo1.svg" width={30} height={30} className=" "/>
+          <div className="flex items-center gap-2 cursor-pointer ">
+            <Image
+              src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1730321856/Mask_group_new_zslsji.svg"
+              width={30}
+              height={30}
+              alt="Logo"
+            />
 
-            <h1 className="text-[#00856f] text-[24px] font-[family-name:var(--font-proxnovabold)] font-[600] cursor-pointer" >ORI-IRE</h1>
+            <h1 className="text-[#3D65FF] text-[24px] font-[family-name:var(--font-proxnovabold)] font-[600] cursor-pointer">
+              ORI-IRE
+            </h1>
           </div>
 
           <div className="text-gray-500 font-extrabold text-xl md:hidden">
@@ -51,10 +56,7 @@ export default function Navbar() {
               <li>
                 <Link href="/Contact">Contact Us</Link>
               </li>
-              
-               
             </ul>
-
           </nav>
         </div>
       </Container>

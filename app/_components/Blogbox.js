@@ -4,7 +4,7 @@ import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 export default function Blogbox() {
   return (
-    <div className="w-[350px] h-[460px]  rounded-md px-4 py-2 flex flex-col gap-5 bg-[#F1F7F6]">
+    <div className="w-[350px] h-[460px]  rounded-md px-4 py-2 flex flex-col gap-5 bg-[#E0EDFF]">
       <div className="w-[320px] h-[250px] relative justify-self-center  ">
         <Image
           src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1730125538/anime-boy-chill-digital-art-hd-wallpaper-uhdpaper.com-284_0_j_tb35wu.jpg"
@@ -18,7 +18,7 @@ export default function Blogbox() {
         Dec 13, 2023
       </p>
 
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-2 text-[#13182F]">
         <h1 className="text-[16px] font-medium">
           Understanding Your Family Health History
         </h1>

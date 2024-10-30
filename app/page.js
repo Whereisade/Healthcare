@@ -11,7 +11,7 @@ import ServicesList from "./_components/ServicesList";
 export default function Home() {
   return (
     <>
-      <section className="bg-[#005350] w-full ">
+      <section className="bg-[#3D65FF] w-full ">
         <Container>
           <div className=" py-[16px] px-[8px] md:px-[16px]  md:pt-[90px] flex flex-col-reverse md:flex-row  gap-5 md:gap-15 ">
             <div className=" md:flex md:flex-col md:justify-center   ">
@@ -66,7 +66,7 @@ export default function Home() {
         </Container>
       </section>
 
-      <section className="bg-[#F1F7F6] w-full">
+      <section className="bg-[#E0EDFF] w-full">
         <Container>
           <div className="p-6 md:p-16  md:justify-self-center ">
             <Heading1 head="Find the care you are looking for" />

@@ -7,7 +7,7 @@ import { FaCircleArrowRight } from "react-icons/fa6";
 
 export default function Carecard({tophead, ctext1, ctext2}) {
   return (
-    <div className='bg-[#DEE3E3] md:w-[350px] p-4 md:p-10 rounded-lg flex md:flex-col space-x-16 md:space-x-0 gap-8'>
+    <div className='bg-white text-[#13182F] md:w-[350px] p-4 md:p-10 rounded-lg flex md:flex-col space-x-16 md:space-x-0 gap-8'>
         <Heading2 head={tophead}/>
         <div className='md:flex md:flex-col hidden gap-4'>
          <div className='flex gap-2'>

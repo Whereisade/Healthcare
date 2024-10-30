@@ -6,7 +6,7 @@ import Footer from "./_components/Footer";
 
 
 const proxNovar = localFont({
-  src: "./fonts/ProximaNova-Regular.otf",
+  src: "./fonts/DMSans-Regular-BF64376d323f095.ttf",
   variable: "--font-proxnovar",
   weight: "100 300 400 600 900",
 });
@@ -22,9 +22,9 @@ const proxNovablack = localFont({
 });
 
 const domaineDisplay = localFont({
-  src: "./fonts/DomaineDisplay-Regular.otf",
+  src: "./fonts/PlusJakartaSans-Regular.ttf",
   variable: "--font-domainer",
-  weight: "100 400 500 600 900",
+  weight: "100 400 500 600 700 900",
 });
 
 
