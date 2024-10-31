@@ -1,20 +1,20 @@
 import React from 'react'
 import Image from 'next/image';
 
-export default function Trustcard() {
+export default function Trustcard({pic, head, para}) {
   return (
-    <div className="bg-[#E0EDFF] flex p-5 items-center gap-2 rounded-lg">
-      <div className="rounded-full ">
+    <div className="bg-[#E0EDFF] flex p-5 items-center gap-4 rounded-lg">
+      <div className="rounded-full bg-white p-3  max-w-[45px]">
         <Image
-          src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1730157181/66b0a41ebfe67fc6e1221e0a_services-choose-icon-01_ndc5tv.svg"
-          width={60}
-          height={500}
+          src={pic}
+          width={30}
+          height={30}
           className='rounded-full'
         />
       </div>
       <div className=''>
-        <h1 className='font-bold'>Health Partner</h1>
-        <p>Your trusted partner in health, providing comprehensive and compassionate care</p>
+        <h1 className='font-bold font-[family-name:var(--font-domainer)] '>{head}</h1>
+        <p className='font-[family-name:var(--font-proxnovar)]'>{para}</p>
       </div>
     </div>
   );

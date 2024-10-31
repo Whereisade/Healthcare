@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./_components/NavBar";
 import Footer from "./_components/Footer";
+import Bottombox from "./_components/Bottombox";
 
 
 
@@ -45,6 +46,7 @@ export default function RootLayout({ children }) {
 
         
         {children}
+        <Bottombox/>
         <Footer />
       </body>
     </html>
