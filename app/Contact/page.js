@@ -13,7 +13,7 @@ import Heading2 from '../_components/Heading2';
 export default function () {
   return (
     <>
-      <section className="bg-[#F1F7F6] w-full">
+      <section className="bg-[#E0EDFF] w-full">
         <Container>
           <Bannersection bhead="Contact Us" />
         </Container>

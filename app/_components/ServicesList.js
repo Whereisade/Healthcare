@@ -2,20 +2,27 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const servicesData = [
+export const servicesData = [
   {
+    id: 1,
     icon: 'https://res.cloudinary.com/ddrylpaqx/image/upload/v1730294123/64548807cef5ac7703bcd05e_pediatric-icon-doctr-x-webflow-template_e0l0xl.svg', 
     title: 'Pediatric',
     description: 'Focusing on the unique health needs of infants, children, and teens',
-    link: '/pediatric', 
+    link: 'pediatric',
+    name: 'Pediatric',
+    imageUrl: 'https://res.cloudinary.com/ddrylpaqx/image/upload/v1730449983/6555b011943eef6ca327e830_navigating-womens-health-insights-and-advice_eockgv.jpg',
+    heading:'Pediatric',
+    p1: 'helekjvjejfheghvrhrhjrjhrgjhrgrh', 
   },
   {
+    id: 2,
     icon: 'https://res.cloudinary.com/ddrylpaqx/image/upload/v1730294405/645b1fe1f0b7307cbda45b74_cardiology-icon-doctr-x-webflow-template_jws6op.svg',
     title: 'Cardiology',
     description: 'Experts in keeping your heart healthy and strong',
     link: '/cardiology',
   },
   {
+    id: 3,
     icon: 'https://res.cloudinary.com/ddrylpaqx/image/upload/v1730323504/645b1fec42ee1248ee1947e1_ophthalmology-icon-doctr-x-webflow-template_picmme.svg',
     title: 'Ophthalmology',
     description: 'Comprehensive eye care for all ages, including vision correction and disease treatment',
@@ -82,6 +89,7 @@ const ServicesList = () => {
     <div className="container mx-auto py-16">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {servicesData.map((service, index) => (
+          <Link href={`./Servicebox/${service.link}`} key={index}>
           <div key={index} className="bg-white rounded-lg shadow-md p-6">
             <div className="flex justify-center mb-4 rounded-full">
               <Image src={service.icon} alt={service.title} width={64} height={64} className='rounded-full' />
@@ -90,6 +98,8 @@ const ServicesList = () => {
             <p className="text-gray-600 text-center mb-4">{service.description}</p>
             <Link href={service.link} className="text-blue-500 hover:underline text-center block">Learn more →</Link>
           </div>
+          
+          </Link>
         ))}
       </div>
     </div>

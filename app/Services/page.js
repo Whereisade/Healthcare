@@ -9,7 +9,7 @@ import Heading1 from "../_components/Heading1";
 export default function page() {
   return (
     <>
-      <section>
+      <section className="bg-[#E0EDFF] w-full">
         <Container>
           <Bannersection bhead="Superior Services Through Expert Medical Practice" />
         </Container>

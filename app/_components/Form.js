@@ -8,13 +8,13 @@ export default function AppointmentForm() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             
             <div>
-              <label htmlFor="firstName" className="block text-sm font-medium text-gray-700">
-                First name
+              <label htmlFor="Name" className="block text-sm font-medium text-gray-700">
+                Name
               </label>
               <input
                 type="text"
-                id="firstName"
-                placeholder="John Carter"
+                id="Name"
+                placeholder="Ayo Balogun"
                 className="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
                 required
               />
@@ -44,25 +44,25 @@ export default function AppointmentForm() {
               <input
                 type="text"
                 id="phoneNumber"
-                placeholder="123 456789"
+                placeholder="+234 812456789"
                 className="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
                 required
               />
             </div>
 
-            
             <div>
-              <label htmlFor="lastName" className="block text-sm font-medium text-gray-700">
-                Last name
+              <label htmlFor="Time" className="block text-sm font-medium text-gray-700">
+                Time
               </label>
               <input
-                type="text"
-                id="lastName"
-                placeholder="11:00am to 1:pm"
+                type="time"
+                id="time"
+                placeholder=""
                 className="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
                 required
               />
             </div>
+            
           </div>
 
          

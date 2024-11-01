@@ -12,7 +12,7 @@ import Heading2 from '../_components/Heading2';
 export default function page() {
   return (
     <>
-      <section className="bg-[#F1F7F6] w-full">
+      <section className="bg-[#E0EDFF] w-full">
         <Container>
           <Bannersection bhead="About Us"/>
         </Container>

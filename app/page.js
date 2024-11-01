@@ -7,6 +7,7 @@ import Section from "./_components/Section";
 import Heading1 from "./_components/Heading1";
 import Heading2 from "./_components/Heading2";
 import ServicesList from "./_components/ServicesList";
+import StatsSection from "./_components/StatsSection";
 
 import Faq from "./_components/Faq";
 
@@ -47,7 +48,7 @@ export default function Home() {
       </section>
 
       <section className="bg-[#E0EDFF] w-full">
-        <StatBar  className="justify-self-center "/>
+        <StatsSection  className="justify-self-center "/>
       </section>
 
       <section className="mt-5 ">
@@ -96,7 +97,7 @@ export default function Home() {
 
       <section>
         <Container>
-          <div className="w-full flex flex-col items-center md:h-[100vh]  md:gap-4 md:p-16">
+          <div className="w-full flex flex-col items-center md:h-[722px]  md:gap-4 md:p-16">
             <Heading2 head="Frequently Asked Questions" />
 
             <Faq></Faq>

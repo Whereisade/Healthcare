@@ -3,12 +3,13 @@ import Container from "../_components/Container";
 import Bannersection from "../_components/Bannersection";
 import Heading1 from "../_components/Heading1";
 import Para1 from "../_components/Para1";
-import Blogbox from "../_components/Blogbox";
+import Blogbox from "../_components/StatsSection";
+import BlogList from "../_components/Blog";
 
 export default function page() {
   return (
     <>
-      <section className=" w-full">
+      <section className=" bg-[#E0EDFF] w-full">
         <Container>
           <Bannersection bhead="Blog" />
         </Container>
@@ -28,20 +29,10 @@ export default function page() {
         </Container>
       </section>
 
+      
       <section>
         <Container>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-6">
-              <Blogbox/>
-              <Blogbox/>
-              <Blogbox/>
-              <Blogbox/>
-              <Blogbox/>
-              <Blogbox/>
-              <Blogbox/>
-              <Blogbox/>
-              <Blogbox/>
-            </div>
-
+          <BlogList></BlogList>
         </Container>
       </section>
     </>
