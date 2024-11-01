@@ -8,6 +8,8 @@ import Heading1 from "./_components/Heading1";
 import Heading2 from "./_components/Heading2";
 import ServicesList from "./_components/ServicesList";
 
+import Faq from "./_components/Faq";
+
 export default function Home() {
   return (
     <>
@@ -92,20 +94,14 @@ export default function Home() {
         </Container>
       </section>
 
-      <section className="">
+      <section>
         <Container>
-          <div className="flex flex-col items-center p-6 md:p-16">
-            <Heading2 head="" />
+          <div className="w-full flex flex-col items-center md:h-[100vh]  md:gap-4 md:p-16">
+            <Heading2 head="Frequently Asked Questions" />
 
-            <div>
-              
-
-            </div>
-
+            <Faq></Faq>
           </div>
-
         </Container>
-
       </section>
     </>
   );

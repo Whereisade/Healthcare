@@ -6,7 +6,7 @@ import Para1 from '../_components/Para1';
 import Bannersection from '../_components/Bannersection';
 import Heading1 from '../_components/Heading1';
 import Form from '../_components/Form';
-import Faqbox from '../_components/Faqbox';
+import Faqbox from '../_components/Faq';
 import Heading2 from '../_components/Heading2';
 
 
@@ -39,9 +39,8 @@ export default function () {
       <section>
         <Container>
           <div className="w-full flex flex-col items-center md:h-[90vh] md:gap-4">
-            <Heading2 head="Frequently Asked Questions">
-              
-            </Heading2>
+            <Heading2 head="Frequently Asked Questions" />
+
             <Faqbox></Faqbox>
           </div>
         </Container>

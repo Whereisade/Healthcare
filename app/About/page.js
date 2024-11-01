@@ -102,7 +102,7 @@ export default function page() {
               height={500}
             />
             <div className='md:w-1/2 flex flex-col md:gap-2'>
-              <Heading2 head="WE ARE HERE FOR YOU" />
+              <Heading2 head="WE ARE HERE FOR YOU"  left/>
               <Para1 textb="Whether you're seeking support for an acute situation, ready to take a new direction in life, or looking for a transformative experience, we are here to guide you towards achieving your goals." />
             </div>
           </div>

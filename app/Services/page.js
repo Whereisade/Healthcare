@@ -45,11 +45,17 @@ export default function page() {
               </div>
             </div>
 
-            <div className="flex flex-col items-center md:p-16">
+            
+          </div>
+        </Container>
+      </section>
+
+      <section className="bg-[#E0EDFF] w-full">
+        <Container>
+        <div className="flex flex-col items-center md:p-16 ">
               <Heading1 head="Tailored Medical Services For Diverse Needs"/>
               <ServicesList />
             </div>
-          </div>
         </Container>
       </section>
     </>
