@@ -95,7 +95,7 @@ export default function page() {
 
       <section className="bg-[#F1F7F6] ">
         <Container>
-          <div className="flex flex-col md:flex-row md:p-16 md:gap-28 justify-center items-center">
+          <div className="flex flex-col md:flex-row md:p-16 gap-5 md:gap-28 p-3 justify-center items-center">
             <Image
               src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1729723307/image_2_nvafnq.svg"
               width={400}

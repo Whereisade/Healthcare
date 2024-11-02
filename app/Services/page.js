@@ -17,8 +17,8 @@ export default function page() {
 
       <section>
         <Container>
-          <div className="flex p-8 flex-col">
-            <div className="flex flex-col md:flex-row md:gap-24 md:justify-center p-4 md:p-16 ">
+          <div className="flex  flex-col">
+            <div className="flex flex-col md:flex-row gap-4 md:gap-24 md:justify-center p-4 md:p-16 ">
               <Twoheading />
 
               <div className="flex flex-col gap-4">
@@ -52,7 +52,7 @@ export default function page() {
 
       <section className="bg-[#E0EDFF] w-full">
         <Container>
-        <div className="flex flex-col items-center md:p-16 ">
+        <div className="flex flex-col items-center p-3 md:p-16 ">
               <Heading1 head="Tailored Medical Services For Diverse Needs"/>
               <ServicesList />
             </div>

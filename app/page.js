@@ -97,7 +97,7 @@ export default function Home() {
 
       <section>
         <Container>
-          <div className="w-full flex flex-col items-center md:h-[722px]  md:gap-4 md:p-16">
+          <div className="w-full flex flex-col items-center md:h-[722px]  md:gap-4 p-3 md:p-16">
             <Heading2 head="Frequently Asked Questions" />
 
             <Faq></Faq>
