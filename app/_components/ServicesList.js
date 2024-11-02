@@ -142,7 +142,7 @@ const ServicesList = () => {
     <div className="container mx-auto py-16">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {servicesData.map((service, index) => (
-          <Link href={`./Servicebox/${service.link}`} key={index}>
+          <Link href={`./Service/${service.link}`} key={index}>
           <div key={index} className="bg-white rounded-lg shadow-md p-6">
             <div className="flex justify-center mb-4 rounded-full">
               <Image src={service.icon} alt={service.title} width={64} height={64} className='rounded-full' />

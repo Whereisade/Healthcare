@@ -5,14 +5,13 @@ import Heading1 from "../_components/Heading1";
 import Para1 from "../_components/Para1";
 import Blogbox from "../_components/StatsSection";
 import BlogList from "../_components/Blog";
+import Bannerimg from "../_components/Bannerimg";
 
 export default function page() {
   return (
     <>
-      <section className=" bg-[#E0EDFF] w-full">
-        <Container>
-          <Bannersection bhead="Blog" />
-        </Container>
+      <section className=" w-full">
+        <Bannerimg bhead="Blog"/>
       </section>
 
       <section>

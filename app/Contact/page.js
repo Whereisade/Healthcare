@@ -8,15 +8,14 @@ import Heading1 from '../_components/Heading1';
 import Form from '../_components/Form';
 import Faqbox from '../_components/Faq';
 import Heading2 from '../_components/Heading2';
+import Bannerimg from '../_components/Bannerimg2';
 
 
 export default function () {
   return (
     <>
       <section className="bg-[#E0EDFF] w-full">
-        <Container>
-          <Bannersection bhead="Contact Us" />
-        </Container>
+        <Bannerimg bhead="Contact Us" />
       </section>
 
       <section>

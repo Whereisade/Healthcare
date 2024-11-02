@@ -5,14 +5,13 @@ import Twoheading from "../_components/Twoheading";
 import Trustcard from "../_components/Trustcard";
 import ServicesList from "../_components/ServicesList";
 import Heading1 from "../_components/Heading1";
+import Bannerimg from "../_components/Bannerimg2";
 
 export default function page() {
   return (
     <>
       <section className="bg-[#E0EDFF] w-full">
-        <Container>
-          <Bannersection bhead="Superior Services Through Expert Medical Practice" />
-        </Container>
+        <Bannerimg bhead="Superior Services Through Expert Medical Practice" />
       </section>
 
       <section>

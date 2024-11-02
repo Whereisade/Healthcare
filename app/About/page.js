@@ -6,16 +6,15 @@ import "../globals.css";
 import HeadingLine from '../_components/HeadingLine';
 import Para1 from '../_components/Para1';
 import Heading2 from '../_components/Heading2';
+import Bannerimg from '../_components/Bannerimg';
 
 
 
 export default function page() {
   return (
     <>
-      <section className="bg-[#E0EDFF] w-full">
-        <Container>
-          <Bannersection bhead="About Us"/>
-        </Container>
+      <section className=" w-full">
+        <Bannerimg bhead="About Us" />
       </section>
 
       <section>
@@ -78,7 +77,7 @@ export default function page() {
       <section className="bg-[#E0EDFF]">
         <Container>
           <div className="px-4 md:px-14 py-10 ">
-            <HeadingLine tophead="Our Team" left  />
+            <HeadingLine tophead="Our Team" left />
 
             <p className=" font-[family-name:var(--font-proxnovar)] opacity-95  ">
               Our talented and highly committed team drives our success in
@@ -101,8 +100,8 @@ export default function page() {
               width={400}
               height={500}
             />
-            <div className='md:w-1/2 flex flex-col md:gap-2'>
-              <Heading2 head="WE ARE HERE FOR YOU"  left/>
+            <div className="md:w-1/2 flex flex-col md:gap-2">
+              <Heading2 head="WE ARE HERE FOR YOU" left />
               <Para1 textb="Whether you're seeking support for an acute situation, ready to take a new direction in life, or looking for a transformative experience, we are here to guide you towards achieving your goals." />
             </div>
           </div>
