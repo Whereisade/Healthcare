@@ -1,4 +1,4 @@
-import ServicesList from "@/app/_components/ServicesList";
+
 import { servicesData } from "@/app/_components/ServicesList";
 import Image from "next/image";
 import Bannersection from "@/app/_components/Bannersection";

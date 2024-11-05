@@ -21,7 +21,7 @@ export default function Section({ title, description, imageSrc, reversed }) {
         <h2 className="text-[30px] md:text-[32px] font-[family-name:var(--font-domainer)] font-[600] w-fit ">
           {title}
         </h2>
-        <p className="font-[family-name:var(--font-proxnovar)] md:w-[70%] text-[16px] leading-6 w-fit">
+        <p className="font-[family-name:var(--font-proxnovar)] md:w-[70%] text-[17px] leading-6 w-fit">
           {description}
         </p>
       </div>

@@ -9,7 +9,7 @@ import Bottombox from "./_components/Bottombox";
 const proxNovar = localFont({
   src: "./fonts/DMSans-Regular-BF64376d323f095.ttf",
   variable: "--font-proxnovar",
-  weight: "100 300 400 600 900",
+  weight: "100 300 400 500 600 900",
 });
 const proxNovabold = localFont({
   src: "./fonts/Proxima Nova Bold.otf",

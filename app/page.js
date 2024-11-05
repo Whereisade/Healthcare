@@ -14,33 +14,34 @@ import Faq from "./_components/Faq";
 export default function Home() {
   return (
     <>
-      <section className="bg-[#3D65FF] w-full ">
+      <section className="  w-full ">
         <Container>
-          <div className=" py-[16px] px-[8px] md:px-[16px]  md:pt-[90px] flex flex-col-reverse md:flex-row  gap-5 md:gap-15 ">
-            <div className=" md:flex md:flex-col md:justify-center   ">
+          <div className=" py-[16px] px-[8px] md:px-[16px]  md:pt-[0px] flex flex-col-reverse md:flex-row  gap-5 md:gap-15 ">
+            <div className=" md:flex md:flex-col md:justify-center  md:pt-[120px] ">
               <h1
-                className={`font-[family-name:var(--font-domainer)] font-[500] md:mb-4 md:font-[400] text-[30px] md:text-[67px] leading-[36px] md:leading-[68px] text-white md:w-fit`}
+                className={`font-[family-name:var(--font-domainer)] font-[700] md:mb-4 md:font-[400] text-[30px] md:text-[56px] leading-[36px] md:leading-[68px] text-[#3D65FF] md:w-fit`}
               >
                 Embrace a healthier you, Discover the power of personalized care
               </h1>
               <p
-                className={`font-[family-name:var(--font-proxnovar)] mt-4  font-[300] leading-[23px] md:mt-6 mb-4 md:mb-8 text-white md:w-[70%]`}
+                className={`font-[family-name:var(--font-proxnovar)] mt-4  font-[500] leading-[23px] md:mt-6 mb-4 md:mb-8 text-[#3D65FF] md:w-[70%]`}
               >
-                More than medicine. We provide holistic support clinical,
-                financial, and emotional for every stage of your life's journey
+                At Ori-Ire hospital, we believe that healthcare should be more than just a service. It should be a compassionate and collaborative journey towards wellness.
               </p>
 
-              <Button text="Request A Call" tcolo="text-white" className="" />
+              <Button text="Request A Call" tcolo="text-[#3D65FF]" bcolo="border-[#3D65FF]" className="" />
             </div>
 
-            
-
+            <div className="h-[700px] w-[2000px]">
             <Image
-              src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1728657065/Gemini_Generated_Image_y58ra3y58ra3y58r_tgswvb.jpg"
-              width={600}
-              height={600}
-              className="rounded-lg w-full h-full"
+              src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1730841966/dl.beatsnoop.com-3000-JGWdVctCXs_d2xaxe.png"
+              width={1000}
+              height={1000}
+              className="rounded-lg w-full h-full object-cover"
             />
+
+            </div>
+
             
 
           </div>
@@ -71,8 +72,8 @@ export default function Home() {
 
       <section className=" w-full">
         <Container>
-          <div className="bg-[#E0EDFF]  p-6 md:p-16  md:justify-self-center rounded-[32px] ">
-            <Heading1 head="Find the care you are looking for" />
+          <div className="bg-[#2563EB]  p-6 md:p-16  md:justify-self-center rounded-[32px] ">
+            <Heading1 head="Find the care you are looking for" color/>
 
             <div className="flex flex-col md:flex-row gap-6  md:justify-self-center">
               <Carecard

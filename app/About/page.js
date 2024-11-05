@@ -7,6 +7,7 @@ import HeadingLine from '../_components/HeadingLine';
 import Para1 from '../_components/Para1';
 import Heading2 from '../_components/Heading2';
 import Bannerimg from '../_components/Bannerimg';
+import Docbox from '../_components/Docbox';
 
 
 
@@ -21,16 +22,16 @@ export default function page() {
         <Container>
           <div className=" px-4 md:px-14 py-10 ">
             <HeadingLine tophead="Our Story" left2 />
-            <div className="flex flex-col md:flex-row gap-6 md:gap-12 ">
+            <div className="flex flex-col md:flex-row gap-6 md:gap-12  justify-center">
               <Image
-                src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1729669012/Gemini_Generated_Image_6jr5336jr5336jr5_msldo6.jpg"
+                src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1730667136/dl.beatsnoop.com-final-j3dsByEGUt_zbno4r.jpg"
                 width={500}
-                height={500}
+                height={300}
                 alt="group of doctors"
-                className="rounded"
+                className="rounded object-cover"
               />
 
-              <div className="text-[16px] font-[family-name:var(--font-proxnovar)] flex flex-col gap-4 font-medium opacity-90">
+              <div className="text-[16px] font-[family-name:var(--font-proxnovar)] flex flex-col  justify-center font-medium opacity-90">
                 <p>
                   Dr. Amina Abubakar, a dedicated physician with a heart for her
                   community, founded Ori-Ire Medical Center in the vibrant Ikoyi
@@ -47,27 +48,7 @@ export default function page() {
                   determination and the growing trust of the community.
                 </p>
 
-                <p>
-                  Today, the center boasts specialized clinics for women's
-                  health, pediatrics, and geriatric care, recognizing the unique
-                  needs of different patient groups. Dr. Abubakar also
-                  integrated mental health services, understanding the vital
-                  connection between mental and physical well-being. But
-                  Ori-Ire's impact extends beyond its modern facility in Ikoyi.
-                  The center actively engages in community outreach, bringing
-                  free health screenings and educational programs to underserved
-                  areas of Lagos. Dr. Abubakar firmly believes that healthcare
-                  is a right, not a privilege, and strives to make a positive
-                  impact on the lives of as many people as possible. Ori-Ire
-                  Medical Center has become a symbol of hope and healing in
-                  Ikoyi, a testament to Dr. Abubakar's unwavering dedication and
-                  the compassionate spirit of her team. As the center continues
-                  to evolve, its core mission remains constant: to provide
-                  comprehensive, accessible, and culturally sensitive care that
-                  uplifts individuals and strengthens the community. How does
-                  this sound? Is there anything you'd like to add or change in
-                  this version of the story?
-                </p>
+                
               </div>
             </div>
           </div>
@@ -88,6 +69,13 @@ export default function page() {
               efficiently. Ultimately, we come to work every day so patients can
               receive superior care in a safe, healing environment.
             </p>
+
+            <div className='grid grid-cols-2 gap-4'>
+              <Docbox/>
+              <Docbox/>
+              <Docbox/>
+              <Docbox/>
+            </div>
           </div>
         </Container>
       </section>
@@ -96,9 +84,10 @@ export default function page() {
         <Container>
           <div className="flex flex-col md:flex-row md:p-16 gap-5 md:gap-28 p-3 justify-center items-center">
             <Image
-              src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1729723307/image_2_nvafnq.svg"
-              width={400}
+              src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1730840414/dl.beatsnoop.com-3000-jKTyJgVlL7_glmu1f.png"
+              width={500}
               height={500}
+              className='rounded-sm'
             />
             <div className="md:w-1/2 flex flex-col md:gap-2">
               <Heading2 head="WE ARE HERE FOR YOU" left />

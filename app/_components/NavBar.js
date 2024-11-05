@@ -11,18 +11,18 @@ export default function Navbar() {
   const [display, setDisplay] = useState(false);
 
   return (
-    <header className="bg-white z-50 md:rounded px-4 py-5 md:py-4 relative shadow-sm md:w-[1250px]  md:absolute md:top-4 md:mx-auto  ">
+    <header className="bg-white z-50 md:rounded px-4 md:px-8 py-5 md:py-3 relative shadow-sm md:w-[1250px]  md:absolute md:top-2 md:mx-auto  ">
       <Container>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2 cursor-pointer ">
             <Image
               src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1730321856/Mask_group_new_zslsji.svg"
-              width={30}
-              height={30}
+              width={24}
+              height={24}
               alt="Logo"
             />
 
-            <h1 className="text-[#3D65FF] text-[24px] font-[family-name:var(--font-proxnovabold)] font-[600] cursor-pointer">
+            <h1 className="text-[#3D65FF] text-[22px] font-[family-name:var(--font-proxnovabold)] font-[600] cursor-pointer">
               ORI-IRE
             </h1>
           </div>
@@ -40,7 +40,7 @@ export default function Navbar() {
               !display ? "hidden" : ""
             }`}
           >
-            <ul className="flex flex-col justify-center items-center h-full gap-10 text-xl md:text-[18px] font-medium text-[#050505] lg:flex-row lg:w-fit lg:gap-10">
+            <ul className="flex flex-col justify-center items-center h-full gap-10 text-xl md:text-[17px] font-medium text-[#050505] lg:flex-row lg:w-fit lg:gap-10">
               <li className="hover:text-[#3D65FF] hover:transition-colors">
                 <Link href="/">Home</Link>
               </li>
