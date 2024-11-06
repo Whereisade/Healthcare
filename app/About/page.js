@@ -70,12 +70,12 @@ export default function page() {
               receive superior care in a safe, healing environment.
             </p>
 
-            <div className='grid grid-cols-2 gap-4'>
+            {/* <div className='grid grid-cols-2 gap-4'>
               <Docbox/>
               <Docbox/>
               <Docbox/>
               <Docbox/>
-            </div>
+            </div> */}
           </div>
         </Container>
       </section>

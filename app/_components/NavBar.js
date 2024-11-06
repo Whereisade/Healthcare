@@ -22,7 +22,7 @@ export default function Navbar() {
               alt="Logo"
             />
 
-            <h1 className="text-[#3D65FF] text-[22px] font-[family-name:var(--font-proxnovabold)] font-[600] cursor-pointer">
+            <h1 className="text-[#3A7DFF] text-[22px] font-[family-name:var(--font-proxnovabold)] font-[600] cursor-pointer">
               ORI-IRE
             </h1>
           </div>
