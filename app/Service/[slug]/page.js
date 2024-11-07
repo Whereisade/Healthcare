@@ -1,5 +1,5 @@
 
-import { servicesData } from "@/app/_components/ServicesList";
+import { servicesData } from "@/app/_components/Data";
 import Image from "next/image";
 import Bannersection from "@/app/_components/Bannersection";
 import Container from "@/app/_components/Container";
@@ -21,7 +21,7 @@ export default function page({ params }) {
         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-8 gap-4 p-3 md:p-16 ">
           <div className="col-span-1 md:col-span-2 flex flex-col md:flex-row items-center justify-between mt-12  ">
             <div className="md:flex  md:items-center md:gap-4">
-              <div className="w-">
+              <div className="6">
                 <Image
                   src={serviceData.icon}
                   alt=" Icon"

@@ -21,7 +21,7 @@ export default function Carecard({tophead, ctext1, ctext2}) {
         </div>
       </div>
 
-      <Link href="./Services"><FaCircleArrowRight className="text-3xl md:text-5xl cursor-pointer " /></Link>
+      <Link href="./Services"><FaCircleArrowRight className="text-3xl md:text-5xl hover:text-[#2563EB] cursor-pointer " /></Link>
 
       
     </div>

@@ -37,7 +37,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="flex flex-col items-center p-6">
+    <div className="flex flex-col items-center p-2 md:p-6">
       
       
       
