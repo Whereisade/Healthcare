@@ -20,7 +20,7 @@ export default function page() {
 
       <section>
         <Container>
-          <div className=" px-4 md:px-14 py-10 ">
+          <div className=" px-2 md:px-14 py-5 md:py-10 ">
             <HeadingLine tophead="Our Story" left2 />
             <div className="flex flex-col md:flex-row gap-6 md:gap-12  justify-center">
               <Image
@@ -57,7 +57,7 @@ export default function page() {
 
       <section className="bg-[#E0EDFF]">
         <Container>
-          <div className="px-4 md:px-14 py-10 ">
+          <div className="px-2 md:px-14 py-6 md:py-10 ">
             <HeadingLine tophead="Our Team" left />
 
             <p className=" font-[family-name:var(--font-proxnovar)] opacity-95  ">
@@ -70,17 +70,12 @@ export default function page() {
               receive superior care in a safe, healing environment.
             </p>
 
-            {/* <div className='grid grid-cols-2 gap-4'>
-              <Docbox/>
-              <Docbox/>
-              <Docbox/>
-              <Docbox/>
-            </div> */}
+            
           </div>
         </Container>
       </section>
 
-      <section className="bg-[#F1F7F6] ">
+      <section className="bg-white py-6 ">
         <Container>
           <div className="flex flex-col md:flex-row md:p-16 gap-5 md:gap-28 p-3 justify-center items-center">
             <Image
@@ -89,7 +84,7 @@ export default function page() {
               height={500}
               className='rounded-sm'
             />
-            <div className="md:w-1/2 flex flex-col md:gap-2">
+            <div className="md:w-1/2 flex flex-col gap-1 md:gap-2">
               <Heading2 head="WE ARE HERE FOR YOU" left />
               <Para1 textb="Whether you're seeking support for an acute situation, ready to take a new direction in life, or looking for a transformative experience, we are here to guide you towards achieving your goals." />
             </div>
