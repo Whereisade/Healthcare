@@ -31,7 +31,7 @@ export default function page() {
       
       <section>
         <Container>
-          <BlogList></BlogList>
+          <BlogList/>
         </Container>
       </section>
     </>
