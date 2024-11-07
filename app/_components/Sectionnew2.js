@@ -11,7 +11,7 @@ export default function Sectionnew2({ head, p1, p2, reverse, imageSrc }) {
         <div className="hidden md:block">
           <Image
             src={imageSrc}
-            alt="Qualified Team"
+            alt="Women"
             width={500}
             height={400}
             className="rounded-lg shadow-lg object-cover hidden md:block"

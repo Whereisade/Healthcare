@@ -1,7 +1,7 @@
-import React from 'react'
-import Heading1 from './Heading1'
-import Button from './Button'
-import Link from 'next/link'
+import React from "react";
+import Heading1 from "./Heading1";
+import Button from "./Button";
+import Link from "next/link";
 
 export default function Bottombox() {
   return (
@@ -11,13 +11,12 @@ export default function Bottombox() {
       </div>
       <div className="flex  flex-col md:flex-row gap-4 ">
         <Link href="./contact">
-
-        <Button
-          text="Book Now"
-          tcolo="text-white"
-          bordercolo="border-[#13182F]"
-          bcolo="bg-[#13182F]"
-        />
+          <Button
+            text="Book Now"
+            tcolo="text-white"
+            bordercolo="border-[#13182F]"
+            bcolo="bg-[#13182F]"
+          />
         </Link>
         <Link href="./services">
           <Button text="Our specialities" tcolo="text-white" />

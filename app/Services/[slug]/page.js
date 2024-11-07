@@ -1,4 +1,3 @@
-
 import { servicesData } from "@/app/_components/Data";
 import Image from "next/image";
 import Container from "@/app/_components/Container";
@@ -10,8 +9,6 @@ export default function page({ params }) {
 
   return (
     <>
-   
-
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-8 gap-4 p-3 md:p-16 ">
           <div className="col-span-1 md:col-span-2 flex flex-col md:flex-row items-center justify-between mt-12  ">
@@ -50,13 +47,12 @@ export default function page({ params }) {
                 {serviceData.heading}
               </h3>
               <div>
-              <p className="text-gray-600 font-[family-name:var(--font-proxnovar)]">
-                {serviceData.p1}
-              </p>
-              <p className="text-gray-600 font-[family-name:var(--font-proxnovar)]">
-                {serviceData.p2}
-              </p>
-
+                <p className="text-gray-600 font-[family-name:var(--font-proxnovar)]">
+                  {serviceData.p1}
+                </p>
+                <p className="text-gray-600 font-[family-name:var(--font-proxnovar)]">
+                  {serviceData.p2}
+                </p>
               </div>
             </div>
             <div className="flex flex-col gap-2">

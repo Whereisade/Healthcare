@@ -1,14 +1,18 @@
-
-
 export default function AppointmentForm() {
   return (
     <div className="md:h-[722px] flex items-center justify-center px-4 py-12 sm:px-6 lg:px-8">
       <div className="bg-white rounded-lg shadow-lg p-6 sm:p-8 lg:p-12 w-full max-w-xl">
-        <form className="space-y-6" action="https://formsubmit.co/fawazadewuyi23@gmail.com" method="POST">
+        <form
+          className="space-y-6"
+          action="https://formsubmit.co/fawazadewuyi23@gmail.com"
+          method="POST"
+        >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            
             <div>
-              <label htmlFor="Name" className="block text-sm font-medium text-gray-700">
+              <label
+                htmlFor="Name"
+                className="block text-sm font-medium text-gray-700"
+              >
                 Name
               </label>
               <input
@@ -21,9 +25,11 @@ export default function AppointmentForm() {
               />
             </div>
 
-            
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+              <label
+                htmlFor="email"
+                className="block text-sm font-medium text-gray-700"
+              >
                 Email
               </label>
               <input
@@ -38,9 +44,11 @@ export default function AppointmentForm() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-           
             <div>
-              <label htmlFor="phoneNumber" className="block text-sm font-medium text-gray-700">
+              <label
+                htmlFor="phoneNumber"
+                className="block text-sm font-medium text-gray-700"
+              >
                 Phone number
               </label>
               <input
@@ -54,7 +62,10 @@ export default function AppointmentForm() {
             </div>
 
             <div>
-              <label htmlFor="Time" className="block text-sm font-medium text-gray-700">
+              <label
+                htmlFor="Time"
+                className="block text-sm font-medium text-gray-700"
+              >
                 Time
               </label>
               <input
@@ -66,16 +77,16 @@ export default function AppointmentForm() {
                 required
               />
             </div>
-            
           </div>
 
-         
           <div>
-            <label htmlFor="message" className="block text-sm font-medium text-gray-700">
+            <label
+              htmlFor="message"
+              className="block text-sm font-medium text-gray-700"
+            >
               Message
             </label>
             <textarea
-
               id="message"
               type="text"
               rows="4"
@@ -86,7 +97,6 @@ export default function AppointmentForm() {
             ></textarea>
           </div>
 
-          
           <div>
             <button
               type="submit"

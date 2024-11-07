@@ -1,11 +1,18 @@
 import Image from "next/image";
 
-export default function Sectionnew({ head, p1, p2, reverse = false, imageSrc }) {
+export default function Sectionnew({
+  head,
+  p1,
+  p2,
+  reverse = false,
+  imageSrc,
+}) {
   return (
     <section className=" py-0 md:py-16 md:px-6">
       <div
         className={`max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-8 items-center ${
-          reverse ? 'md:grid-flow-col-dense' : ''}`}
+          reverse ? "md:grid-flow-col-dense" : ""
+        }`}
       >
         <div className="space-y-4">
           <h2 className="text-[36px] leading-10 font-bold text-gray-800">

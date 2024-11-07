@@ -10,10 +10,9 @@ import Image from "next/image";
 
 export default function Nav() {
   const [display, setDisplay] = useState(false);
-  const pathname = usePathname(); 
+  const pathname = usePathname();
 
   useEffect(() => {
-    
     setDisplay(false);
   }, [pathname]);
 

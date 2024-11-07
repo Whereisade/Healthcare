@@ -1,3 +1,29 @@
+
+export const statsData = [
+  { value: "120k+", 
+    label: "Recovered Patients" 
+  },
+  { value: "96%", 
+    label: "Satisfaction Rate" 
+  },
+  { value: "62+", 
+    label: "Expert Doctors" 
+  },
+];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 export const servicesData = [
     {
       id: 1,
@@ -136,6 +162,23 @@ export const servicesData = [
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   export const blogData = [
     {
       id: 1,
@@ -187,3 +230,60 @@ export const servicesData = [
     },
     
   ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  export const faqs = [
+    {
+      question: "What specialties do your doctors cover?",
+      answer:
+        "Our doctors specialize in various fields including cardiology, dermatology, orthopedics, and more.",
+    },
+    {
+      question: "Which insurance plans do you accept?",
+      answer:
+        "We accept most major insurance plans. Please contact us for more details.",
+    },
+    {
+      question: "How can I schedule an appointment?",
+      answer:
+        "You can schedule an appointment by calling us or through our online booking system on our website.",
+    },
+    {
+      question: "What should I bring to my appointment?",
+      answer:
+        "Please bring a valid ID, insurance information, and any medical records relevant to your visit.",
+    },
+    {
+      question: "Do you offer telemedicine or virtual visits?",
+      answer: "Yes, we offer telemedicine appointments for your convenience.",
+    },
+
+    {
+      question: "What should I do in case of an emergency?",
+      answer:
+        "In case of an emergency, call 112 or go to the nearest emergency room immediately.",
+    },
+  ];
+

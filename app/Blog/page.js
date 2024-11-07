@@ -11,7 +11,7 @@ export default function page() {
   return (
     <>
       <section className=" w-full">
-        <Bannerimg bhead="Blog"/>
+        <Bannerimg bhead="Blog" />
       </section>
 
       <section>
@@ -28,10 +28,9 @@ export default function page() {
         </Container>
       </section>
 
-      
       <section>
         <Container>
-          <BlogList/>
+          <BlogList />
         </Container>
       </section>
     </>

@@ -8,6 +8,7 @@ import StatsSection from "./_components/StatsSection";
 import Faq from "./_components/Faq";
 import Sectionnew from "./_components/Sectionnew";
 import Sectionnew2 from "./_components/Sectionnew2";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -31,12 +32,14 @@ export default function Home() {
                 collaborative journey towards wellness.
               </p>
 
-              <Button
-                text="Request A Call"
-                tcolo="text-white"
-                bcolo="bg-[#3A7DFF]"
-                className=""
-              />
+              <Link href="/contact">
+                <Button
+                  text="Request A Call"
+                  tcolo="text-white"
+                  bcolo="bg-[#3A7DFF]"
+                  className=""
+                />
+              </Link>
             </div>
 
             <div className="h-[300px] md:h-[700px] md:w-[2000px] w-full">
