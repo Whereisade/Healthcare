@@ -37,10 +37,10 @@ export default function () {
 
       <section>
         <Container>
-          <div className="w-full flex flex-col items-center md:h-[90vh] md:gap-4">
+          <div className="w-full flex flex-col items-center md:h-[722px] md:gap-4">
             <Heading2 head="Frequently Asked Questions" />
 
-            <Faqbox></Faqbox>
+            <Faqbox/>
           </div>
         </Container>
       </section>

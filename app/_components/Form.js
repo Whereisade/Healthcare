@@ -2,7 +2,7 @@
 
 export default function AppointmentForm() {
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 py-12 sm:px-6 lg:px-8">
+    <div className="md:h-[722px] flex items-center justify-center px-4 py-12 sm:px-6 lg:px-8">
       <div className="bg-white rounded-lg shadow-lg p-6 sm:p-8 lg:p-12 w-full max-w-xl">
         <form className="space-y-6" action="https://formsubmit.co/fawazadewuyi23@gmail.com" method="POST">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

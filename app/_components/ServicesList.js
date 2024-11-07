@@ -26,7 +26,7 @@ const ServicesList = () => {
               <p className="text-gray-600 text-center mb-4">
                 {service.description}
               </p>
-              <Link href={`./service/${service.link}`} key={index}>
+              <Link href={`./services/${service.link}`} key={index}>
                 <p className="text-blue-500 hover:underline text-center block">
                   Learn more →
                 </p>

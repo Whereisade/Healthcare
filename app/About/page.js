@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "../_components/Container";
 import Image from "next/image";
-
 import "../globals.css";
 import HeadingLine from "../_components/HeadingLine";
 import Para1 from "../_components/Para1";
@@ -50,7 +49,7 @@ export default function page() {
         </Container>
       </section>
 
-      <section className="bg-[#E0EDFF]">
+      <section className="bg-[#E0EDFF] w-full">
         <Container>
           <div className="px-2 md:px-14 py-6 md:py-10 ">
             <HeadingLine tophead="Our Team" left />

@@ -62,7 +62,7 @@ export const servicesData = [
       description: 'Restoring mobility and relieving pain through expert orthopedic care',
       link: 'orthopedic',
       heading: "Restoring Mobility, Relieving Pain",
-      p1: "The orthopedic department at [Hospital Name] provides comprehensive care for musculoskeletal conditions affecting the bones, joints, muscles, tendons, and ligaments. Our team of orthopedic surgeons, physiatrists, and therapists work together to help patients regain mobility, reduce pain, and improve their quality of life.",
+      p1: "The orthopedic department at Ori-ire provides comprehensive care for musculoskeletal conditions affecting the bones, joints, muscles, tendons, and ligaments. Our team of orthopedic surgeons, physiatrists, and therapists work together to help patients regain mobility, reduce pain, and improve their quality of life.",
       p2: "We provide comprehensive rehabilitation services, including physical therapy, occupational therapy, and pain management, to help patients recover from injuries and surgeries",
     },
     {

@@ -41,10 +41,10 @@ const Faq = () => {
       
       
       
-      <div className="flex flex-col lg:flex-row items-start w-full max-w-4xl md:gap-8 font-[family-name:var(--font-proxnovar)]">
+      <div className="flex flex-col md:flex-row items-start w-full max-w-4xl md:gap-8 font-[family-name:var(--font-proxnovar)]">
         
         
-        <div className="lg:w-1/2 flex justify-center mb-4 lg:mb-0">
+        <div className="md:w-1/2 flex justify-center mb-4 md:mb-0">
           <Image
             src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1730125538/anime-boy-chill-digital-art-hd-wallpaper-uhdpaper.com-284_0_j_tb35wu.jpg"
             width={500}
