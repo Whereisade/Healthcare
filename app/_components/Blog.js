@@ -10,8 +10,8 @@ const BlogList = () => {
     <div className="container mx-auto py-16">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         {blogData.map((blog, index) => (
-          <div className="w-[550px] h-[500px]  rounded-md px-4 py-2 flex flex-col gap-5 bg-[#E0EDFF] font-[family-name:var(--font-proxnovar)]">
-            <div className="w-[520px] h-[250px] relative justify-self-center  ">
+          <div className="md:w-[550px] md:h-[500px]  rounded-md px-4 py-2 flex flex-col gap-5 bg-[#E0EDFF] font-[family-name:var(--font-proxnovar)]">
+            <div className="md:w-[520px] h-[250px] relative justify-self-center  ">
               <Image
                 src={blog.icon}
                 width={500}
@@ -31,13 +31,12 @@ const BlogList = () => {
               <p className="text-[14px] md:text-[16px] opacity-90 font-[family-name:var(--font-proxnovar)]">
                 {blog.description}
               </p>
-              <div className="flex items-center gap-1 mt-6 md:justify-end cursor-pointer hover:text-blue-400 self-end">
-                <Link href={`./blog/${blog.link}`} key={index}>
-                <IoIosArrowDroprightCircle className="text-3xl " />
-                <p className="">Read More</p>
-                
-                </Link>
-              </div>
+              <Link href={`./blog/${blog.link}`} key={index}>
+                <div className="flex items-center gap-1 mt-6 md:justify-end cursor-pointer hover:text-blue-400 self-end">
+                  <IoIosArrowDroprightCircle className="text-3xl " />
+                  <p className="">Read More</p>
+                </div>
+              </Link>
             </div>
           </div>
         ))}

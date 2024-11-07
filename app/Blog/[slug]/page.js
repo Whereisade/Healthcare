@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { blogData } from "@/app/_components/Data";
+import Heading1 from "@/app/_components/Heading1";
 
 export default function BlogPost({ params }) {
     const data = blogData.find(
@@ -9,36 +10,39 @@ export default function BlogPost({ params }) {
   return (
     <div className="max-w-6xl mx-auto p-6">
      
-      <div className="relative mb-8">
+      <div className=" md:w-[1100px] md:h-[500px] md:mt-20 mb-8">
         <Image
-          src={data.icon} // Replace with actual image URL
-          alt="Healthcare Scene"
-          width={800}
+          src={data.icon} 
+          alt="people"
+          width={600}
           height={400}
-          className="rounded-lg shadow-lg object-cover"
+          className="rounded-lg shadow-lg w-full h-full object-cover"
         />
       </div>
 
-      {/* Meta Info Section */}
+      
       <div className="flex flex-col md:flex-row justify-between items-center bg-gray-50 p-4 rounded-lg shadow-md mb-8">
         <div className="flex items-center gap-2">
-          <span className="text-gray-500 text-sm">Posted By:</span>
-          <p className="text-gray-800 font-medium">Richard Alan</p>
+          <span className="text-gray-500 text-sm">Post By:</span>
+          <p className="text-gray-800 font-medium">Ade</p>
         </div>
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-1">
             <span className="text-gray-500 text-sm">Date:</span>
-            <p className="text-gray-800 font-medium">November 20, 2023</p>
+            <p className="text-gray-800 font-medium">Nov 20, 2023</p>
           </div>
-          <div className="flex items-center gap-1">
-            <span className="text-gray-500 text-sm">Category:</span>
-            <p className="text-gray-800 font-medium">Mental Health</p>
+          <div className="flex items-center gap-1 ">
+            <span className="text-gray-500 text-sm hidden md:block">Category:</span>
+            <p className="text-gray-800 font-medium hidden md:block">Mental Health</p>
           </div>
         </div>
       </div>
 
-      {/* Content Section */}
-      <article>
+      
+      <div>
+        <div>
+            <Heading1 head={data.title}/>
+        </div>
         <section className="mb-6">
           <h2 className="text-2xl font-bold text-gray-800 mb-2">
             Introduction:
@@ -66,7 +70,7 @@ export default function BlogPost({ params }) {
             setting the stage for potential cardiovascular issues.
           </p>
         </section>
-      </article>
+      </div>
     </div>
   );
 }
