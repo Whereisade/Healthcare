@@ -1,15 +1,12 @@
-import React from 'react';
-import Container from '../_components/Container';
-import Image from 'next/image';
-import Bannersection from '../_components/Bannersection';
+import React from "react";
+import Container from "../_components/Container";
+import Image from "next/image";
+
 import "../globals.css";
-import HeadingLine from '../_components/HeadingLine';
-import Para1 from '../_components/Para1';
-import Heading2 from '../_components/Heading2';
-import Bannerimg from '../_components/Bannerimg';
-import Docbox from '../_components/Docbox';
-
-
+import HeadingLine from "../_components/HeadingLine";
+import Para1 from "../_components/Para1";
+import Heading2 from "../_components/Heading2";
+import Bannerimg from "../_components/Bannerimg";
 
 export default function page() {
   return (
@@ -47,8 +44,6 @@ export default function page() {
                   gradually expanded its services thanks to Dr. Abubakar's
                   determination and the growing trust of the community.
                 </p>
-
-                
               </div>
             </div>
           </div>
@@ -69,8 +64,6 @@ export default function page() {
               efficiently. Ultimately, we come to work every day so patients can
               receive superior care in a safe, healing environment.
             </p>
-
-            
           </div>
         </Container>
       </section>
@@ -82,7 +75,7 @@ export default function page() {
               src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1730840414/dl.beatsnoop.com-3000-jKTyJgVlL7_glmu1f.png"
               width={500}
               height={500}
-              className='rounded-sm'
+              className="rounded-sm"
             />
             <div className="md:w-1/2 flex flex-col gap-1 md:gap-2">
               <Heading2 head="WE ARE HERE FOR YOU" left />

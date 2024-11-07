@@ -20,7 +20,8 @@ export default function Home() {
                 className={`font-[family-name:var(--font-domainer)] font-[700] md:mb-4 md:font-[600] text-[30px] md:text-[56px] leading-[32px] md:leading-[68px]  md:w-fit`}
               >
                 Embrace a <span className="text-[#3D65FF]">healthier</span> you,
-                Discover the power of <span className="text-[#3D65FF]">personalized care</span>
+                Discover the power of{" "}
+                <span className="text-[#3D65FF]">personalized care</span>
               </h1>
               <p
                 className={`font-[family-name:var(--font-proxnovar)] mt-4  font-[600] leading-[23px] md:mt-6 mb-4 md:mb-8 text-[#1F2937] md:w-[70%]`}
@@ -59,7 +60,6 @@ export default function Home() {
           <div className="flex flex-col px-2 py-6 md:p-16">
             <Sectionnew
               head="Our Qualified Team is Always Ready to Help You!"
-            
               p1=" Our team of highly skilled and experienced professionals is dedicated to providing you with the highest quality care. We stay up-to-date with the latest advancements in medical science to offer you the most effective treatments."
               p2=" We are committed to open and honest communication. We believe in empowering our patients with knowledge and understanding, so they can make informed decisions about their healthcare."
               imageSrc="https://res.cloudinary.com/ddrylpaqx/image/upload/v1730448558/655adf0463c953059316e7cf_demystifying-common-myths-about-vaccines_jh9sai.jpg"
@@ -112,7 +112,7 @@ export default function Home() {
           <div className="w-full flex flex-col items-center md:h-[722px]  md:gap-4 pt-4 md:p-16">
             <Heading2 head="Frequently Asked Questions" />
 
-            <Faq/>
+            <Faq />
           </div>
         </Container>
       </section>

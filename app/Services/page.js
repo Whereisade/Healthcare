@@ -17,7 +17,7 @@ export default function page() {
       <section>
         <Container>
           <div className="flex  flex-col">
-            <div className="flex flex-col md:flex-row gap-4 md:gap-24 md:justify-center items-center p-4 md:p-16 ">
+            <div className="flex flex-col md:flex-row gap-4 md:gap-24 md:justify-center md:items-center p-4 md:p-16 ">
               
               <Twoheading />
 
