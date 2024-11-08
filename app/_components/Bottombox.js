@@ -16,6 +16,7 @@ export default function Bottombox() {
             tcolo="text-white"
             bordercolo="border-[#13182F]"
             bcolo="bg-[#13182F]"
+            hov="hover:bg-black"
           />
         </Link>
         <Link href="./services">
