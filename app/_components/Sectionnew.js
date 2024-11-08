@@ -25,6 +25,8 @@ export default function Sectionnew({
         </div>
 
         <div className=" hidden md:block ">
+          <div className="max-w-[500px]">
+
           <Image
             src={imageSrc}
             alt="Qualified Team"
@@ -32,6 +34,7 @@ export default function Sectionnew({
             height={400}
             className="rounded-lg shadow-lg object-cover hidden md:block"
           />
+          </div>
         </div>
       </div>
     </section>

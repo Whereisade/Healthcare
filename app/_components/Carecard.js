@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function Carecard({ tophead, ctext1, ctext2 }) {
   return (
-    <div className="bg-white text-[#13182F] md:w-[350px] p-4 md:p-10 rounded-lg flex md:flex-col justify-between md:gap-8">
+    <div className="bg-white text-[#13182F] md:w-[250px] lg:w-[350px] p-4 md:p-10 rounded-lg flex md:flex-col justify-between md:gap-8">
       <Heading2 head={tophead} />
       <div className="md:flex md:flex-col hidden gap-4">
         <div className="flex gap-2">

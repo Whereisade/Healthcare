@@ -24,6 +24,7 @@ export default function page() {
                 width={500}
                 height={300}
                 alt="group of doctors"
+                style={{ objectFit: 'cover' }}
                 className="rounded object-cover"
               />
 
@@ -70,12 +71,16 @@ export default function page() {
       <section className="bg-white py-6 ">
         <Container>
           <div className="flex flex-col md:flex-row md:p-16 gap-5 md:gap-28 p-3 justify-center items-center">
+            <div className="max-w-[500px]">
             <Image
               src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1730840414/dl.beatsnoop.com-3000-jKTyJgVlL7_glmu1f.png"
               width={500}
               height={500}
-              className="rounded-sm"
+              alt= "grandma and child"
+              className= "rounded-sm"
             />
+
+            </div>
             <div className="md:w-1/2 flex flex-col gap-1 md:gap-2">
               <Heading2 head="WE ARE HERE FOR YOU" left />
               <Para1 textb="Whether you're seeking support for an acute situation, ready to take a new direction in life, or looking for a transformative experience, we are here to guide you towards achieving your goals." />

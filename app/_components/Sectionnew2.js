@@ -8,7 +8,7 @@ export default function Sectionnew2({ head, p1, p2, reverse, imageSrc }) {
           reverse ? "md:flex-row-reverse" : ""
         }`}
       >
-        <div className="hidden md:block">
+        <div className="hidden md:block max-w-[500px]">
           <Image
             src={imageSrc}
             alt="Women"
