@@ -294,95 +294,329 @@ export const servicesData = [
 
 
 
-   export const doctorsData = [
+  export const doctorsData = [
     {
       id: 1,
       name: "Dr. Dara Johnson",
+      slug: "dr-dara-johnson",
       department: "Cardiology",
       title: "Board Certified Cardiologist",
       specialization: "Heart Specialist",
       image: "https://res.cloudinary.com/ddrylpaqx/image/upload/v1730667135/dl.beatsnoop.com-3000-3qDpRLwGC2_cddpam.jpg",
       education: "MD - Johns Hopkins University",
-      experience: "15+ years"
+      experience: "15+ years",
+      bio: "Dr. Johnson is a renowned cardiologist with extensive experience in treating complex cardiovascular conditions. She specializes in preventive cardiology and heart failure management, helping patients achieve optimal heart health through personalized treatment plans.",
+      specialties: [
+        "Preventive Cardiology",
+        "Heart Failure Management",
+        "Cardiac Imaging",
+        "Interventional Cardiology"
+      ],
+      languages: ["English", "Spanish"],
+      availability: {
+        days: ["Monday", "Tuesday", "Thursday", "Friday"],
+        hours: "9:00 AM - 5:00 PM"
+      },
+      certifications: [
+        "American Board of Internal Medicine",
+        "Cardiovascular Disease Certification",
+        "Advanced Heart Failure and Transplant Cardiology"
+      ],
+      publications: [
+        "Recent Advances in Heart Failure Treatment - Cardiology Today 2022",
+        "Prevention Strategies in Cardiovascular Disease - Medical Journal 2021"
+      ],
+      awards: [
+        "Excellence in Cardiology Award 2021",
+        "Best Medical Researcher 2020"
+      ]
     },
     {
       id: 2,
       name: "Dr. Michael Chen",
-      department: "Pediatrics", 
+      slug: "dr-michael-chen",
+      department: "Pediatrics",
       title: "Chief of Pediatrics",
       specialization: "Child Healthcare",
       image: "https://res.cloudinary.com/ddrylpaqx/image/upload/v1728766719/Gemini_Generated_Image_8y6bfr8y6bfr8y6b_obdnrf.jpg",
       education: "MD - Stanford University",
-      experience: "12+ years"
+      experience: "12+ years",
+      bio: "Dr. Chen is a compassionate pediatrician dedicated to providing comprehensive care for children from newborns to adolescents. His approach combines medical expertise with a gentle, child-friendly manner that puts both young patients and their parents at ease.",
+      specialties: [
+        "Newborn Care",
+        "Developmental Pediatrics",
+        "Childhood Immunizations",
+        "Adolescent Medicine"
+      ],
+      languages: ["English", "Mandarin", "Cantonese"],
+      availability: {
+        days: ["Monday", "Wednesday", "Thursday", "Saturday"],
+        hours: "8:30 AM - 4:30 PM"
+      },
+      certifications: [
+        "American Board of Pediatrics",
+        "Pediatric Advanced Life Support",
+        "Neonatal Resuscitation Program"
+      ],
+      publications: [
+        "Early Childhood Development Milestones - Pediatrics Journal 2023",
+        "Vaccination Strategies in Pediatric Care - Child Health Review 2022"
+      ],
+      awards: [
+        "Outstanding Pediatrician Award 2022",
+        "Child Advocacy Excellence Recognition 2021"
+      ]
     },
     {
       id: 3,
       name: "Dr. Amina Abubakar",
+      slug: "dr-amina-abubakar",
       department: "Internal Medicine",
       title: "Medical Director",
       specialization: "General Medicine",
       image: "https://res.cloudinary.com/ddrylpaqx/image/upload/v1730667134/dl.beatsnoop.com-3000-2G9MiV5Btb_bgrkh9.jpg",
       education: "MBBS - University of Lagos",
-      experience: "20+ years"
+      experience: "20+ years",
+      bio: "Dr. Abubakar brings two decades of experience in internal medicine, specializing in complex medical conditions and preventive care. As Medical Director, she leads with a patient-centered approach and emphasis on holistic health management.",
+      specialties: [
+        "Chronic Disease Management",
+        "Preventive Medicine",
+        "Geriatric Care",
+        "Hospital Medicine"
+      ],
+      languages: ["English", "Hausa", "Arabic"],
+      availability: {
+        days: ["Tuesday", "Wednesday", "Friday", "Saturday"],
+        hours: "9:00 AM - 6:00 PM"
+      },
+      certifications: [
+        "American Board of Internal Medicine",
+        "Advanced Cardiac Life Support",
+        "Geriatric Medicine Certification"
+      ],
+      publications: [
+        "Integrated Approach to Chronic Disease Management - Medical Review 2023",
+        "Preventive Care Strategies in Adult Medicine - Healthcare Journal 2021"
+      ],
+      awards: [
+        "Physician of the Year 2023",
+        "Excellence in Medical Leadership 2022"
+      ]
     },
     {
       id: 4,
       name: "Dr. James Adeleke",
+      slug: "dr-james-adeleke",
       department: "Orthopedics",
       title: "Orthopedic Surgeon",
       specialization: "Sports Medicine",
       image: "https://res.cloudinary.com/ddrylpaqx/image/upload/v1728657065/Gemini_Generated_Image_y58ra3y58ra3y58r_tgswvb.jpg",
       education: "MD - Harvard Medical School",
-      experience: "10+ years"
+      experience: "10+ years",
+      bio: "Dr. Adeleke specializes in sports medicine and minimally invasive orthopedic procedures. His expertise includes treating professional athletes and developing innovative rehabilitation protocols for optimal recovery.",
+      specialties: [
+        "Sports Medicine",
+        "Joint Replacement",
+        "Arthroscopic Surgery",
+        "Trauma Care"
+      ],
+      languages: ["English", "Yoruba"],
+      availability: {
+        days: ["Monday", "Wednesday", "Thursday", "Friday"],
+        hours: "8:00 AM - 5:00 PM"
+      },
+      certifications: [
+        "American Board of Orthopedic Surgery",
+        "Sports Medicine Subspecialty Certification",
+        "Advanced Trauma Life Support"
+      ],
+      publications: [
+        "Advances in Minimally Invasive Joint Surgery - Orthopedics Today 2023",
+        "Sports Injury Prevention Strategies - Sports Medicine Journal 2022"
+      ],
+      awards: [
+        "Top Orthopedic Surgeon 2023",
+        "Innovation in Sports Medicine Award 2022"
+      ]
     },
     {
       id: 5,
       name: "Dr. Emily Caicedo",
+      slug: "dr-emily-caicedo",
       department: "Neurology",
       title: "Neurologist",
       specialization: "Brain & Spine",
       image: "https://res.cloudinary.com/ddrylpaqx/image/upload/v1730667135/dl.beatsnoop.com-3000-M4IsSX96Wf_jswwfr.jpg",
       education: "MD - Yale University",
-      experience: "8+ years"
+      experience: "8+ years",
+      bio: "Dr. Caicedo is a skilled neurologist focusing on neurological disorders and innovative treatment approaches. She combines traditional neurological care with cutting-edge therapeutic techniques.",
+      specialties: [
+        "Neurodegenerative Disorders",
+        "Epilepsy Management",
+        "Headache Treatment",
+        "Stroke Care"
+      ],
+      languages: ["English", "Spanish", "Portuguese"],
+      availability: {
+        days: ["Monday", "Tuesday", "Thursday", "Friday"],
+        hours: "9:30 AM - 5:30 PM"
+      },
+      certifications: [
+        "American Board of Psychiatry and Neurology",
+        "Epilepsy Subspecialty Certification",
+        "Neurocritical Care Certification"
+      ],
+      publications: [
+        "Novel Approaches in Epilepsy Treatment - Neurology Today 2023",
+        "Understanding Migraine Patterns - Headache Journal 2022"
+      ],
+      awards: [
+        "Excellence in Neurological Care 2023",
+        "Young Investigator Award 2022"
+      ]
     },
     {
       id: 6,
       name: "Dr. David Kim",
+      slug: "dr-david-kim",
       department: "Dermatology",
       title: "Chief Dermatologist",
       specialization: "Skin Care",
       image: "https://res.cloudinary.com/ddrylpaqx/image/upload/v1728766719/Gemini_Generated_Image_8y6bfr8y6bfr8y6b_obdnrf.jpg",
       education: "MD - Columbia University",
-      experience: "14+ years"
+      experience: "14+ years",
+      bio: "Dr. Kim is a leading dermatologist specializing in both medical and cosmetic dermatology. His expertise includes advanced skin cancer treatments and innovative aesthetic procedures.",
+      specialties: [
+        "Medical Dermatology",
+        "Cosmetic Procedures",
+        "Skin Cancer Treatment",
+        "Laser Therapy"
+      ],
+      languages: ["English", "Korean", "Japanese"],
+      availability: {
+        days: ["Tuesday", "Wednesday", "Friday", "Saturday"],
+        hours: "10:00 AM - 6:00 PM"
+      },
+      certifications: [
+        "American Board of Dermatology",
+        "Mohs Surgery Certification",
+        "Cosmetic Dermatology Certification"
+      ],
+      publications: [
+        "Advances in Skin Cancer Treatment - Dermatology Review 2023",
+        "Modern Approaches to Anti-Aging - Aesthetic Medicine 2022"
+      ],
+      awards: [
+        "Top Dermatologist Award 2023",
+        "Excellence in Skin Cancer Research 2022"
+      ]
     },
     {
       id: 7,
       name: "Dr. Lisa Oyindamola",
+      slug: "dr-lisa-oyindamola",
       department: "Gynecology",
       title: "OB/GYN Specialist",
       specialization: "Women's Health",
       image: "https://res.cloudinary.com/ddrylpaqx/image/upload/v1730667135/dl.beatsnoop.com-3000-M4IsSX96Wf_jswwfr.jpg",
       education: "MD - Duke University",
-      experience: "16+ years"
+      experience: "16+ years",
+      bio: "Dr. Oyindamola is a dedicated women's health specialist with expertise in both routine and high-risk obstetrics, as well as complex gynecological procedures.",
+      specialties: [
+        "High-Risk Obstetrics",
+        "Minimally Invasive Surgery",
+        "Fertility Treatment",
+        "Women's Wellness"
+      ],
+      languages: ["English", "Yoruba"],
+      availability: {
+        days: ["Monday", "Wednesday", "Thursday", "Saturday"],
+        hours: "8:30 AM - 5:30 PM"
+      },
+      certifications: [
+        "American Board of Obstetrics and Gynecology",
+        "Advanced Laparoscopic Surgery",
+        "High-Risk Pregnancy Management"
+      ],
+      publications: [
+        "Modern Approaches to Women's Health - OB/GYN Journal 2023",
+        "Advances in Minimally Invasive Gynecologic Surgery - Medical Review 2022"
+      ],
+      awards: [
+        "Outstanding Women's Health Physician 2023",
+        "Excellence in Patient Care 2022"
+      ]
     },
     {
       id: 8,
       name: "Dr. Ahmed Hassan",
+      slug: "dr-ahmed-hassan",
       department: "Psychiatry",
       title: "Senior Psychiatrist",
       specialization: "Mental Health",
       image: "https://res.cloudinary.com/ddrylpaqx/image/upload/v1728860998/Gemini_Generated_Image_5dhnob5dhnob5dhn_rekuhq.jpg",
       education: "MD - University of California",
-      experience: "11+ years"
+      experience: "11+ years",
+      bio: "Dr. Hassan is a compassionate psychiatrist specializing in mood disorders and anxiety treatment. He takes a holistic approach to mental health, incorporating both medication management and psychotherapy.",
+      specialties: [
+        "Mood Disorders",
+        "Anxiety Treatment",
+        "Addiction Psychiatry",
+        "Psychotherapy"
+      ],
+      languages: ["English", "Arabic", "French"],
+      availability: {
+        days: ["Monday", "Tuesday", "Thursday", "Friday"],
+        hours: "9:00 AM - 6:00 PM"
+      },
+      certifications: [
+        "American Board of Psychiatry",
+        "Addiction Medicine Certification",
+        "Cognitive Behavioral Therapy Certification"
+      ],
+      publications: [
+        "Modern Approaches to Anxiety Treatment - Psychiatry Today 2023",
+        "Integrated Treatment for Mood Disorders - Mental Health Journal 2022"
+      ],
+      awards: [
+        "Excellence in Mental Health Care 2023",
+        "Compassionate Doctor Award 2022"
+      ]
     },
     {
       id: 9,
       name: "Dr. Simi Adeniji",
+      slug: "dr-simi-adeniji",
       department: "Oncology",
       title: "Medical Oncologist",
       specialization: "Cancer Care",
       image: "https://res.cloudinary.com/ddrylpaqx/image/upload/v1730667135/dl.beatsnoop.com-3000-3qDpRLwGC2_cddpam.jpg",
       education: "MD - Mayo Medical School",
-      experience: "13+ years"
+      experience: "13+ years",
+      bio: "Dr. Adeniji is a dedicated oncologist specializing in personalized cancer treatment approaches. She focuses on combining traditional therapies with innovative treatment protocols to provide comprehensive cancer care.",
+      specialties: [
+        "Medical Oncology",
+        "Immunotherapy",
+        "Clinical Trials",
+        "Precision Medicine"
+      ],
+      languages: ["English", "Yoruba", "French"],
+      availability: {
+        days: ["Monday", "Wednesday", "Thursday", "Friday"],
+        hours: "8:00 AM - 4:00 PM"
+      },
+      certifications: [
+        "American Board of Internal Medicine - Oncology",
+        "Hematology Certification",
+        "Clinical Research Certification"
+      ],
+      publications: [
+        "Advances in Immunotherapy - Oncology Review 2023",
+        "Personalized Medicine in Cancer Treatment - Cancer Journal 2022"
+      ],
+      awards: [
+        "Outstanding Oncologist Award 2023",
+        "Clinical Excellence in Cancer Care 2022"
+      ]
     }
   ];

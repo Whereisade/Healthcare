@@ -1,12 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
 import { doctorsData } from './Data'
+import Link from 'next/link';
 
 
 export default function Docbox() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
       {doctorsData.map((doctor, index) => (
+        <Link href={`./doctor/${doctor.slug}`} key={index}>
+        
         <div 
           key={doctor.id} 
           className="max-w-sm rounded overflow-hidden shadow-lg bg-white transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl"
@@ -32,6 +35,7 @@ export default function Docbox() {
             </span>
           </div>
         </div>
+        </Link>
       ))}
     </div>
   );
