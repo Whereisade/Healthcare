@@ -287,3 +287,102 @@ export const servicesData = [
     },
   ];
 
+
+
+
+
+
+
+
+   export const doctorsData = [
+    {
+      id: 1,
+      name: "Dr. Dara Johnson",
+      department: "Cardiology",
+      title: "Board Certified Cardiologist",
+      specialization: "Heart Specialist",
+      image: "https://res.cloudinary.com/ddrylpaqx/image/upload/v1730667135/dl.beatsnoop.com-3000-3qDpRLwGC2_cddpam.jpg",
+      education: "MD - Johns Hopkins University",
+      experience: "15+ years"
+    },
+    {
+      id: 2,
+      name: "Dr. Michael Chen",
+      department: "Pediatrics", 
+      title: "Chief of Pediatrics",
+      specialization: "Child Healthcare",
+      image: "https://res.cloudinary.com/ddrylpaqx/image/upload/v1728766719/Gemini_Generated_Image_8y6bfr8y6bfr8y6b_obdnrf.jpg",
+      education: "MD - Stanford University",
+      experience: "12+ years"
+    },
+    {
+      id: 3,
+      name: "Dr. Amina Abubakar",
+      department: "Internal Medicine",
+      title: "Medical Director",
+      specialization: "General Medicine",
+      image: "https://res.cloudinary.com/ddrylpaqx/image/upload/v1730667134/dl.beatsnoop.com-3000-2G9MiV5Btb_bgrkh9.jpg",
+      education: "MBBS - University of Lagos",
+      experience: "20+ years"
+    },
+    {
+      id: 4,
+      name: "Dr. James Adeleke",
+      department: "Orthopedics",
+      title: "Orthopedic Surgeon",
+      specialization: "Sports Medicine",
+      image: "https://res.cloudinary.com/ddrylpaqx/image/upload/v1728657065/Gemini_Generated_Image_y58ra3y58ra3y58r_tgswvb.jpg",
+      education: "MD - Harvard Medical School",
+      experience: "10+ years"
+    },
+    {
+      id: 5,
+      name: "Dr. Emily Caicedo",
+      department: "Neurology",
+      title: "Neurologist",
+      specialization: "Brain & Spine",
+      image: "https://res.cloudinary.com/ddrylpaqx/image/upload/v1730667135/dl.beatsnoop.com-3000-M4IsSX96Wf_jswwfr.jpg",
+      education: "MD - Yale University",
+      experience: "8+ years"
+    },
+    {
+      id: 6,
+      name: "Dr. David Kim",
+      department: "Dermatology",
+      title: "Chief Dermatologist",
+      specialization: "Skin Care",
+      image: "https://res.cloudinary.com/ddrylpaqx/image/upload/v1728766719/Gemini_Generated_Image_8y6bfr8y6bfr8y6b_obdnrf.jpg",
+      education: "MD - Columbia University",
+      experience: "14+ years"
+    },
+    {
+      id: 7,
+      name: "Dr. Lisa Oyindamola",
+      department: "Gynecology",
+      title: "OB/GYN Specialist",
+      specialization: "Women's Health",
+      image: "https://res.cloudinary.com/ddrylpaqx/image/upload/v1730667135/dl.beatsnoop.com-3000-3qDpRLwGC2_cddpam.jpg",
+      education: "MD - Duke University",
+      experience: "16+ years"
+    },
+    {
+      id: 8,
+      name: "Dr. Ahmed Hassan",
+      department: "Psychiatry",
+      title: "Senior Psychiatrist",
+      specialization: "Mental Health",
+      image: "https://res.cloudinary.com/ddrylpaqx/image/upload/v1728860998/Gemini_Generated_Image_5dhnob5dhnob5dhn_rekuhq.jpg",
+      education: "MD - University of California",
+      experience: "11+ years"
+    },
+    {
+      id: 9,
+      name: "Dr. Simi Adeniji",
+      department: "Oncology",
+      title: "Medical Oncologist",
+      specialization: "Cancer Care",
+      image: "https://res.cloudinary.com/ddrylpaqx/image/upload/v1730667135/dl.beatsnoop.com-3000-3qDpRLwGC2_cddpam.jpg",
+      education: "MD - Mayo Medical School",
+      experience: "13+ years"
+    }
+  ];
