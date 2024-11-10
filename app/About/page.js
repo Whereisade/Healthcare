@@ -6,6 +6,7 @@ import HeadingLine from "../_components/HeadingLine";
 import Para1 from "../_components/Para1";
 import Heading2 from "../_components/Heading2";
 import Bannerimg from "../_components/Bannerimg";
+import Docbox from "../_components/Docbox";
 
 export default function page() {
   return (
@@ -24,7 +25,7 @@ export default function page() {
                 width={500}
                 height={300}
                 alt="group of doctors"
-                style={{ objectFit: 'cover' }}
+                style={{ objectFit: "cover" }}
                 className="rounded object-cover"
               />
 
@@ -55,15 +56,22 @@ export default function page() {
           <div className="px-2 md:px-14 py-6 md:py-10 ">
             <HeadingLine tophead="Our Team" left />
 
-            <p className=" font-[family-name:var(--font-proxnovar)] opacity-95  ">
-              Our talented and highly committed team drives our success in
-              innovating sustainable healthcare solutions that advance patient
-              care outcomes. Ori-Ire experience in healthcare, combined with the
-              local knowledge of our distributor network, help ensure that care
-              teams have the necessary tools to care for patients safely and
-              efficiently. Ultimately, we come to work every day so patients can
-              receive superior care in a safe, healing environment.
-            </p>
+            <div className="space-y-8">
+              <p className=" font-[family-name:var(--font-proxnovar)] opacity-95  ">
+                Our talented and highly committed team drives our success in
+                innovating sustainable healthcare solutions that advance patient
+                care outcomes. Ori-Ire experience in healthcare, combined with
+                the local knowledge of our distributor network, help ensure that
+                care teams have the necessary tools to care for patients safely
+                and efficiently. Ultimately, we come to work every day so
+                patients can receive superior care in a safe, healing
+                environment.
+              </p>
+
+              <div className="w-full">
+                <Docbox />
+              </div>
+            </div>
           </div>
         </Container>
       </section>
@@ -72,14 +80,13 @@ export default function page() {
         <Container>
           <div className="flex flex-col md:flex-row md:p-16 gap-5 md:gap-28 p-3 justify-center items-center">
             <div className="max-w-[500px]">
-            <Image
-              src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1730840414/dl.beatsnoop.com-3000-jKTyJgVlL7_glmu1f.png"
-              width={500}
-              height={500}
-              alt= "grandma and child"
-              className= "rounded-sm"
-            />
-
+              <Image
+                src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1730840414/dl.beatsnoop.com-3000-jKTyJgVlL7_glmu1f.png"
+                width={500}
+                height={500}
+                alt="grandma and child"
+                className="rounded-sm"
+              />
             </div>
             <div className="md:w-1/2 flex flex-col gap-1 md:gap-2">
               <Heading2 head="WE ARE HERE FOR YOU" left />

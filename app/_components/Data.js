@@ -361,7 +361,7 @@ export const servicesData = [
       department: "Gynecology",
       title: "OB/GYN Specialist",
       specialization: "Women's Health",
-      image: "https://res.cloudinary.com/ddrylpaqx/image/upload/v1730667135/dl.beatsnoop.com-3000-3qDpRLwGC2_cddpam.jpg",
+      image: "https://res.cloudinary.com/ddrylpaqx/image/upload/v1730667135/dl.beatsnoop.com-3000-M4IsSX96Wf_jswwfr.jpg",
       education: "MD - Duke University",
       experience: "16+ years"
     },
