@@ -55,16 +55,16 @@ export default function Nav() {
                 <Link href="/">Home</Link>
               </li>
               <li className="hover:text-[#3D65FF] hover:transition-colors">
-                <Link href="/about">About</Link>
+                <Link href="./about">About</Link>
               </li>
               <li className="hover:text-[#3D65FF] hover:transition-colors">
-                <Link href="/services">Services</Link>
+                <Link href="./services">Services</Link>
               </li>
               <li className="hover:text-[#3D65FF] hover:transition-colors">
-                <Link href="/blog">Blog</Link>
+                <Link href="./blog">Blog</Link>
               </li>
               <li className="hover:text-[#3D65FF] hover:transition-colors">
-                <Link href="/contact">Contact Us</Link>
+                <Link href="./contact">Contact Us</Link>
               </li>
             </ul>
           </nav>
