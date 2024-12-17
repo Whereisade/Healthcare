@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import Container from "../_components/Container";
 import Image from "next/image";
@@ -7,6 +8,7 @@ import Para1 from "../_components/Para1";
 import Heading2 from "../_components/Heading2";
 import Bannerimg from "../_components/Bannerimg";
 import Docbox from "../_components/Docbox";
+import { motion } from 'framer-motion';
 
 export default function page() {
   return (
@@ -19,6 +21,16 @@ export default function page() {
         <Container>
           <div className=" px-2 md:px-14 py-5 md:py-10 ">
             <HeadingLine tophead="Our Story" left2 />
+            <motion.div
+              initial={{ x: "-100vw" }} // Off-screen
+              animate={{ x: 0 }} // Slide to position
+              transition={{
+                type: "tween",
+                duration: 1.5,
+                ease: "easeOut", // Smooth end
+              }}
+            >
+
             <div className="flex flex-col md:flex-row gap-6 md:gap-12  justify-center">
               <Image
                 src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1730667136/dl.beatsnoop.com-final-j3dsByEGUt_zbno4r.jpg"
@@ -28,7 +40,6 @@ export default function page() {
                 style={{ objectFit: "cover" }}
                 className="rounded object-cover"
               />
-
               <div className="text-[16px] font-[family-name:var(--font-proxnovar)] flex flex-col  justify-center font-medium opacity-90">
                 <p>
                   Dr. Amina Abubakar, a dedicated physician with a heart for her
@@ -47,6 +58,7 @@ export default function page() {
                 </p>
               </div>
             </div>
+            </motion.div>
           </div>
         </Container>
       </section>

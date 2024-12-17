@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import Container from "./_components/Container";
 import Button from "./_components/Button";
@@ -9,37 +10,49 @@ import Faq from "./_components/Faq";
 import Sectionnew from "./_components/Sectionnew";
 import Sectionnew2 from "./_components/Sectionnew2";
 import Link from "next/link";
+import { motion } from 'framer-motion';
 
 export default function Home() {
   return (
     <>
-      <section className="  w-full ">
+      <section className=" w-full ">
         <Container>
           <div className=" py-[16px] px-[1px] md:px-[16px]  md:pt-[0px] flex flex-col-reverse md:flex-row  gap-5 md:gap-15 ">
             <div className=" md:flex md:flex-col md:justify-center  md:pt-[120px] ">
-              <h1
-                className={`font-[family-name:var(--font-domainer)] font-[700] md:mb-4 md:font-[600] text-[30px] md:text-[56px] leading-[32px] md:leading-[68px]  md:w-fit`}
+              <motion.h1
+                initial={{ x: '-100vw' }} // Start off-screen to the left
+                animate={{ x: 0 }}        // End position at normal
+                transition={{
+                  type: 'spring',         // Adds a spring effect
+                  stiffness: 100,         // Controls spring tension
+                  damping: 20,            // Controls how "bouncy" it is
+                  duration: 1,            // Optional duration (if no spring)
+                }}
               >
-                Embrace a <span className="text-[#3D65FF]">healthier</span> you,
-                Discover the power of{" "}
-                <span className="text-[#3D65FF]">personalized care</span>
-              </h1>
-              <p
-                className={`font-[family-name:var(--font-proxnovar)] mt-4  font-[600] leading-[23px] md:mt-6 mb-4 md:mb-8 text-[#1F2937] md:w-[70%]`}
-              >
-                At Ori-Ire hospital, we believe that healthcare should be more
-                than just a service. It should be a compassionate and
-                collaborative journey towards wellness.
-              </p>
+                <h1
+                  className={`font-[family-name:var(--font-domainer)] font-[700] md:mb-4 md:font-[600] text-[30px] md:text-[56px] leading-[32px] md:leading-[68px]  md:w-fit`}
+                >
+                  Embrace a <span className="text-[#3D65FF]">healthier</span>{" "}
+                  you, Discover the power of{" "}
+                  <span className="text-[#3D65FF]">personalized care</span>
+                </h1>
+                <p
+                  className={`font-[family-name:var(--font-proxnovar)] mt-4  font-[600] leading-[23px] md:mt-6 mb-4 md:mb-8 text-[#1F2937] md:w-[70%]`}
+                >
+                  At Ori-Ire hospital, we believe that healthcare should be more
+                  than just a service. It should be a compassionate and
+                  collaborative journey towards wellness.
+                </p>
 
-              <Link href="/contact">
-                <Button
-                  text="Request A Call"
-                  tcolo="text-white"
-                  bcolo="bg-[#3A7DFF]"
-                  className=""
-                />
-              </Link>
+                <Link href="/contact">
+                  <Button
+                    text="Request A Call"
+                    tcolo="text-white"
+                    bcolo="bg-[#3A7DFF]"
+                    className=""
+                  />
+                </Link>
+              </motion.h1>
             </div>
 
             <div className="h-[300px] md:h-[700px] md:w-[2000px] w-full">
