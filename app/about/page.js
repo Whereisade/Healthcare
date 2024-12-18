@@ -22,12 +22,12 @@ export default function page() {
           <div className=" px-2 md:px-14 py-5 md:py-10 ">
             <HeadingLine tophead="Our Story" left2 />
             <motion.div
-              initial={{ x: "-100vw" }} // Off-screen
-              animate={{ x: 0 }} // Slide to position
+              initial={{ x: "-100vw" }} 
+              animate={{ x: 0 }} 
               transition={{
                 type: "tween",
                 duration: 1.5,
-                ease: "easeOut", // Smooth end
+                ease: "easeOut", 
               }}
             >
 
