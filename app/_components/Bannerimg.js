@@ -2,7 +2,7 @@ import React from 'react'
 import Heading1 from './Heading1'
 import HeadingBig from './HeadingBig'
 
-export default function Bannerimg({bhead,}) {
+export default function Bannerimg({bhead}) {
   return (
     <div className=" h-[300px] md:h-[700px] bg-cover bg-center bg-no-repeat flex flex-col  justify-center items-center text-white"
     style={{ backgroundImage: "url('https://res.cloudinary.com/ddrylpaqx/image/upload/v1730587205/fetchpik.com_-high-CosRY2QuMn_hdtwkn.jpg')" }}>

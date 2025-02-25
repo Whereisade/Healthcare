@@ -23,10 +23,10 @@ export default function Home() {
                 initial={{ x: '-100vw' }} // Start off-screen to the left
                 animate={{ x: 0 }}        // End position at normal
                 transition={{
-                  type: 'spring',         // Adds a spring effect
-                  stiffness: 100,         // Controls spring tension
-                  damping: 20,            // Controls how "bouncy" it is
-                  duration: 1,            // Optional duration (if no spring)
+                  type: 'spring',         
+                  stiffness: 100,         
+                  damping: 20,           
+                  duration: 1,            
                 }}
               >
                 <h1
@@ -135,3 +135,4 @@ export default function Home() {
     </>
   );
 }
+
